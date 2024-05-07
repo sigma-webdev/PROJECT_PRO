@@ -17,23 +17,31 @@
 
 
 ## Features ✨:-
-- **Navbar Section**:
-Displays the logo of the music store.
+- **Header and Navbar Section**:
+Displays the logo of Raheem's portfolio.
+Provides navigation links to different sections of the website such as Home, About Me, Skills, Projects, and Contact.
 
-- **Hero Section**:
-Displays the title of the music store collection.
-Provides a brief description encouraging users to add their favorite music to the playlist section.
+- **Home Section**:
+Displays a welcome message with Raheem's name and profession.
+Includes a brief introduction to Raheem's skills and expertise.
 
-- **Main Section**:
-Displays a table with information about an album, including the album image, a song with audio controls, and the artist's name.
-The song is playable via an embedded audio player.
+- **About Me Section**:
+Provides a detailed description of Raheem's background, interests, and career objectives.
 
-- **Footer Section**:
-Contains contact information for the music store.
-Displays the copyright information for the store.
-Shows social media icons for connecting with the store on various platforms.
+- **Experience Section**:
+Lists Raheem's professional experience, including roles, companies, and duration.
 
-  
+- **Skills Section**:
+Enumerates Raheem's proficiency level in various programming languages, frameworks, and tools.
+
+- **Projects Section**:
+Showcases Raheem's projects with project titles, images, tech stacks, and descriptions.
+
+- **Contact Me Section**:
+Provides contact information for Raheem, including phone number and email address.
+Offers links to connect with Raheem on LinkedIn.
+
+
 
 # Getting Started ✨:-
 

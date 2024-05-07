@@ -4,6 +4,16 @@
 This Project contains the code for a simple Resume web page in only HTML tech stack.
 
 
+# About me 
+
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/2d7808c4-eeac-407f-becd-f4fa904a1278)
+
+# About me Summary Education  Experience
+
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/bb6e9b88-d272-4637-abd1-a3029e9e9b7d)
+
+ # skill project intrest language acheivement certification 
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/61b79bb9-638b-4069-b846-f31e132b05c6)
 
 ## Features ✨:-
 1. **About Me**: Provides a brief introduction to who I am and my professional background.

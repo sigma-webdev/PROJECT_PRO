@@ -26,7 +26,7 @@ Displays a table with information about a Food, including the Food image, Price,
 
 
 - **Footer Section**:
-Contains contact information for the Restaurant .
+Contains contact information for the Restaurant.
 Displays the copyright information for the store.
 Shows social media icons for connecting with the store on various platforms.
 
@@ -38,9 +38,9 @@ To run the website locally on your machine, follow these simple steps:
 
 1. **Clone the Repository**: Use `git clone` to copy the repository to your local machine.
 
-2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `fakestoreapi`.
+2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `RestaurantWebsitehtml`.
 
-3. **Open the HTML File**:You can open the index.html file in your favorite web browser to view the website locally.
+3. **Open the HTML File**:You can open the index.html file in your favourite web browser to view the website locally.
 
 
 # Technologies Used ✨:-

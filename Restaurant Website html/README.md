@@ -1,25 +1,32 @@
 
-# ✨PROJECT NAME -->  Music Store Page  App By Html
+# ✨PROJECT NAME -->  Restaurant Website By Html
 
-This Project contains the code for a simple Music Store web page in only html techStack .
+This Project contains the code for a simple Restaurant  website web page in only HTML tech stack.
 
-![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/64103eed-3ebf-4639-8c5a-eeba63c68c28)
+# Header , Navbar , Home , About , Menu 
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/b1bb45ee-0f93-4182-a277-2c201a6ce76f)
 
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/cfd75a9f-0ccb-4bce-9b01-31be41bddc31)
+
+# Footer
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/efee0d04-ae7c-470f-91be-19c934232644)
 
 ## Features ✨:-
 - **Navbar Section**:
-Displays the logo of the music store.
+Displays the logo of the Restaurant  website.
 
-- **Hero Section**:
-Displays the title of the music store collection.
-Provides a brief description encouraging users to add their favorite music to the playlist section.
+- **Home Section**:
+Displays the title of the Restaurant  website.
 
-- **Main Section**:
-Displays a table with information about an album, including the album image, a song with audio controls, and the artist's name.
-The song is playable via an embedded audio player.
+- **About Section**:
+- Display All about of Restaurant's  website.
+
+- **Menu Section**:
+Displays a table with information about a Food, including the Food image, Price, description, name and add-ons.
+
 
 - **Footer Section**:
-Contains contact information for the music store.
+Contains contact information for the Restaurant .
 Displays the copyright information for the store.
 Shows social media icons for connecting with the store on various platforms.
 

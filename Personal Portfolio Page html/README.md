@@ -1,6 +1,6 @@
 
 # ✨PROJECT NAME --> Personal Portfolio website By Html
-
+This Project contains the code for a simple Portfolio web page in only HTML tech stack.
 
 # Header, Navabr, Home, About,
 ![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/cc0fb046-16d0-4142-a866-4892f7d3290c)

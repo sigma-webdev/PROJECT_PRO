@@ -1,34 +1,20 @@
 
 # ✨PROJECT NAME -->  Resume Website By Html
 
-This Project contains the code for a simple Music Store web page in only html tech stack.
+This Project contains the code for a simple Resume web page in only HTML tech stack.
 
 
 
 ## Features ✨:-
-- **Header and Navbar Section**:
-Displays the logo of Raheem's portfolio.
-Provides navigation links to different sections of the website such as Home, About Me, Skills, Projects, and Contact.
-
-- **Home Section**:
-Displays a welcome message with Raheem's name and profession.
-Includes a brief introduction to Raheem's skills and expertise.
-
-- **About Me Section**:
-Provides a detailed description of Raheem's background, interests, and career objectives.
-
-- **Experience Section**:
-Lists Raheem's professional experience, including roles, companies, and duration.
-
-- **Skills Section**:
-Enumerates Raheem's proficiency level in various programming languages, frameworks, and tools.
-
-- **Projects Section**:
-Showcases Raheem's projects with project titles, images, tech stacks, and descriptions.
-
-- **Contact Me Section**:
-Provides contact information for Raheem, including phone number and email address.
-Offers links to connect with Raheem on LinkedIn.
+1. **About Me**: Provides a brief introduction to who I am and my professional background.
+2. **Experience**: Details my work experiences, including positions, companies, and duration.
+3. **Skills**: Lists my proficiency levels in various programming languages and technologies.
+4. **Projects**: Showcases a selection of projects I have worked on, along with descriptions and technologies used.
+5. **Education**: Displays information about my educational qualifications, including degree, institution, location, and years attended.
+6. **Interests**: Highlights my personal interests related to web development, programming, and other activities.
+7. **Achievements**: Lists any notable achievements or awards received.
+8. **Languages**: Specifies the languages I am proficient in, including fluency levels.
+9. **Contact Me**: Provides contact information for reaching out to me via phone, email, or LinkedIn.
 
   
 

@@ -12,8 +12,11 @@ This Project contains the code for a simple Restaurant  website web page in only
 ![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/efee0d04-ae7c-470f-91be-19c934232644)
 
 ## Features ✨:-
-- **Navbar Section**:
+- **Header Section**:
 Displays the logo of the Restaurant  website.
+
+- **Navbar Section**:
+Display all the page links like home, about, menu  and contact.
 
 - **Home Section**:
 Displays the title of the Restaurant  website.

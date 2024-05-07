@@ -19,7 +19,7 @@ Displays the logo of the Restaurant  website.
 Displays the title of the Restaurant  website.
 
 - **About Section**:
-- Display All about of Restaurant's  website.
+ Display All about of Restaurant's  website.
 
 - **Menu Section**:
 Displays a table with information about a Food, including the Food image, Price, description, name and add-ons.

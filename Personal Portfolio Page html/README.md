@@ -1,10 +1,15 @@
 
 # ✨PROJECT NAME -->  Music Store Page  App By Html
 
-This Project contains the code for a simple Music Store web page in only html techStack .
 
-![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/64103eed-3ebf-4639-8c5a-eeba63c68c28)
 
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/cc0fb046-16d0-4142-a866-4892f7d3290c)
+
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/009f8515-617d-4e0d-8528-cec30896f1e4)
+
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/22e25568-5aa1-417b-8f43-fb1b07f58903)
+
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/9f4d2cfc-6958-4c51-bfb9-b0c2ae1057d0)
 
 ## Features ✨:-
 - **Navbar Section**:
@@ -31,9 +36,9 @@ To run the website locally on your machine, follow these simple steps:
 
 1. **Clone the Repository**: Use `git clone` to copy the repository to your local machine.
 
-2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `fakestoreapi`.
+2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `PersonalPortfolioPage`.
 
-3. **Open the HTML File**:You can open the index.html file in your favorite web browser to view the website locally.
+3. **Open the HTML File**:You can open the `index.html` file in your favourite web browser to view the website locally.
 
 
 # Technologies Used ✨:-

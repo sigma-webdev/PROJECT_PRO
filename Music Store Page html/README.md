@@ -31,9 +31,9 @@ To run the website locally on your machine, follow these simple steps:
 
 1. **Clone the Repository**: Use `git clone` to copy the repository to your local machine.
 
-2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `fakestoreapi`.
+2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `MusicStorePagehtml`.
 
-3. **Open the HTML File**:You can open the index.html file in your favorite web browser to view the website locally.
+3. **Open the HTML File**:You can open the index.html file in your favourite web browser to view the website locally.
 
 
 # Technologies Used ✨:-

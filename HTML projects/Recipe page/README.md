@@ -4,7 +4,7 @@ This project is a simple HTML webpage that displays various food recipes with in
 ## Overview 
 The Recipe Pages project is designed to showcase different food recipes using HTML. Each recipe is displayed on a separate section of the webpage, providing details about the ingredients needed and step-by-step instructions for preparation.
 
-![overview-image ](../assets/snapshot.png)
+![overview-image ](./assets/snapshot.png)
 
 ## Usage 
 You can use this project to: 

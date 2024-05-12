@@ -35,16 +35,9 @@ Shows social media icons for connecting with the store on various platforms.
 
   
 
-# Getting Started ✨:-
+## How to View ✨:-
 
-To run the website locally on your machine, follow these simple steps:
-
-1. **Clone the Repository**: Use `git clone` to copy the repository to your local machine.
-
-2. **Navigate to the Project Directory**: Open a terminal or command prompt, navigate to the project directory, and run `RestaurantWebsitehtml`.
-
-3. **Open the HTML File**:You can open the `index.html` file in your favourite web browser to view the website locally.
-
+You can view the webpage by opening the `index.html` file in any web browser.
 
 # Technologies Used ✨:-
      HTML

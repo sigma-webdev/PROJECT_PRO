@@ -6,7 +6,8 @@ This Project contains the code for a simple Resume web page in only HTML tech st
 
 # About me 
 
-![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/2d7808c4-eeac-407f-becd-f4fa904a1278)
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/c904c8d4-6b39-4711-96ca-71b4e4869e01)
+
 
 # About me Summary Education  Experience
 

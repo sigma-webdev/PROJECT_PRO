@@ -2,7 +2,7 @@
 # ✨PROJECT NAME --> Personal Portfolio website By Html
 This Project contains the code for a simple Portfolio web page in only HTML tech stack.
 
-# check live :- https://6640f404329d2af5bace199d--sparkling-frangipane-2a9815.netlify.app/
+# check live :- https://6640f684d531b6e874f14f3d--resonant-madeleine-138fec.netlify.app/
 
 
 # Header, Navabr, Home, About,

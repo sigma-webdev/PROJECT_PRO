@@ -3,6 +3,9 @@
 
 This Project contains the code for a simple Music Store web page in only html techStack .
 
+# check live :- https://6640f35cf1eb57f3e36464cd--glittery-lokum-843e55.netlify.app/
+
+
 ![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/64103eed-3ebf-4639-8c5a-eeba63c68c28)
 
 

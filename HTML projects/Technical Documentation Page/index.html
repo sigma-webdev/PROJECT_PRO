@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Technical Documentation Page</title>
   </head>
   <body>
+
+    <!-- Heading Section -->
     <header>
       <h1>Node.js Technical Documentation</h1>
     </header>
 
+    <!-- Introduction Section -->
     <section>
       <h2>Introduction to Node.js</h2>
       <p>
@@ -19,8 +22,10 @@
       </p>
     </section>
 
+    <!-- Key Features Section-->
     <section>
       <h2>Key Features of Node.js</h2>
+      <!-- Unordered list of key features -->
       <ul>
         <li>
           <strong>Asynchronous and Event-Driven:</strong> Node.js uses
@@ -47,7 +52,8 @@
         </li>
       </ul>
     </section>
-
+    
+    <!-- Installation Section -->
     <section>
       <h2>Installing Node.js</h2>
       <p>
@@ -63,6 +69,7 @@
       </p>
     </section>
 
+    <!-- Getting Started Section -->
     <section>
       <h2>Getting Started</h2>
       <p>
@@ -77,19 +84,17 @@
       </p>
       <code>
         <pre>
-							const http = require('http');
+          const http = require('http');
+          const server = http.createServer((req, res) => {
+            res.statusCode = 200;
+            res.setHeader('Content-Type', 'text/plain');
+            res.end('Hello, World!\n');
+          });
 
-							const server = http.createServer((req, res) => {
-									res.statusCode = 200;
-									res.setHeader('Content-Type', 'text/plain');
-									res.end('Hello, World!\n');
-							});
-
-							server.listen(3000, 'localhost', () => {
-									console.log('Server running at http://localhost:3000/');
-							});
-					</pre
-        >
+          server.listen(3000, 'localhost', () => {
+            console.log('Server running at http://localhost:3000/');
+          });
+        </pre>
       </code>
       <p>
         This script creates a server that listens on port 3000 and responds with
@@ -97,6 +102,7 @@
       </p>
     </section>
 
+    <!-- Nodejs Modules Section -->
     <section>
       <h2>Node.js Modules</h2>
       <p>
@@ -107,21 +113,18 @@
       <p>Here's an example of how to create and use a custom module:</p>
       <code>
         <pre>
-							// greet.js
-							module.exports = function(name) {
-									return 'Hello, ' + name + '!';
-							};
-					</pre
-        >
+          // greet.js
+          module.exports = function(name) {
+            return 'Hello, ' + name + '!';
+          };
+					</pre>
       </code>
       <code>
         <pre>
-							// app.js
-							const greet = require('./greet');
-
-							console.log(greet('John'));
-					</pre
-        >
+          // app.js
+          const greet = require('./greet');
+          console.log(greet('John'));
+					</pre>
       </code>
       <p>
         This will output "Hello, John!" when you run the
@@ -129,6 +132,7 @@
       </p>
     </section>
 
+    <!-- Nodejs Frameworks Section -->
     <section>
       <h2>Node.js Frameworks</h2>
       <p>
@@ -143,6 +147,7 @@
       </p>
     </section>
 
+    <!-- Footer Section -->
     <footer>
       <p>&copy; 2024 Node.js Documentation. All rights reserved.</p>
     </footer>

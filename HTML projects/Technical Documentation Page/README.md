@@ -24,4 +24,4 @@ To view the project, open the HTML file in a web browser.
 
 ## Output
 
-![image](./output.png)
+![image](./Output.png)

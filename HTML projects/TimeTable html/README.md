@@ -23,8 +23,6 @@ The weekly timetable provides a visual representation of class schedules. It inc
 ## Structure
 The timetable is structured as an HTML table with rows and columns. Each row represents a day of the week, and each column represents a time slot. The subjects are placed within the appropriate cells.
 
-## Styling
-The timetable is styled using CSS. The table, header cells (`<th>`), and data cells (`<td>`) have borders to create a grid-like appearance.
 
 ## Output
 ![image](./output.png)

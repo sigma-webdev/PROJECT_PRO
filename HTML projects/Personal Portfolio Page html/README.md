@@ -2,7 +2,7 @@
 # ✨PROJECT NAME --> Personal Portfolio website By Html
 This Project contains the code for a simple Portfolio web page in only HTML tech stack.
 
-# check live :- https://6640f404329d2af5bace199d--sparkling-frangipane-2a9815.netlify.app/
+# check live :- https://6640f684d531b6e874f14f3d--resonant-madeleine-138fec.netlify.app/
 
 
 # Header, Navabr, Home, About,
@@ -11,13 +11,16 @@ This Project contains the code for a simple Portfolio web page in only HTML tech
 
 
  #  Experience, Skill, Project,
-![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/009f8515-617d-4e0d-8528-cec30896f1e4)
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/9f01850b-c42c-49ee-877e-e952c120eb48)
+
 
 # Project
-![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/22e25568-5aa1-417b-8f43-fb1b07f58903)
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/e3913145-9fa3-45ed-ade7-dcf3d62e5001)
+
 
 # Contact, Footer
-![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/9f4d2cfc-6958-4c51-bfb9-b0c2ae1057d0)
+
+![image](https://github.com/sigma-webdev/PROJECT_PRO/assets/107506646/5170265b-3788-4380-a6c8-b36871c35154)
 
 
 

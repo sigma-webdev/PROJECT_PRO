@@ -3,6 +3,7 @@
 
 This Project contains the code for a simple Resume web page in only HTML tech stack.
 
+# check live :- https://6640f7b5329d2af8bdce1a3b--poetic-liger-92e043.netlify.app/
 
 # About me 
 

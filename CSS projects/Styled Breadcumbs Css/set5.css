@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.breadcrumb4 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+  } 
+
+   ul.breadcrumb4 li {
+    display: inline;
+  } 
+
+
+   ul.breadcrumb4 li+li:before {
+    content: "/\00a0"; 
+
+  } 
+
+   ul.breadcrumb4 li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+
+  ul.breadcrumb4  a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+  .breadcrumb4 .recent {
+    color: #303030;
+  }

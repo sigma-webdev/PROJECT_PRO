@@ -1,0 +1,37 @@
+.horizontal-tab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 300px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .tab-content {
+    border: 1px solid #4CAF50;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    display: none;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #tab1:checked ~ #content1,
+  #tab2:checked ~ #content2,
+  #tab3:checked ~ #content3 {
+    display: block;
+  }
+  

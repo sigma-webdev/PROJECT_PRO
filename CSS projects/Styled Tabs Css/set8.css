@@ -1,0 +1,33 @@
+.tab-container {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #8cb6df;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .tab:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tab:last-child {
+    margin-right: 0;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab1:hover + .tab1-content,
+  .tab2:hover + .tab2-content,
+  .tab3:hover + .tab3-content {
+    display: block;
+  }
+  

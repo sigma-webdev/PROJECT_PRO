@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.bc {
+  background: #e74c3c;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 24px;
+  font-style: italic;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 25px; /* 10 + $bw */
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.bc:before {
+  border: 15px solid #e74c3c; /* $bw */
+  border-top: 40px solid transparent; /* $bh + 2 * $pad */
+  border-left: 0;
+  border-bottom: 0;
+  content: '';
+  display: block;
+  left: -15px; /* $bw */
+  top: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.bc:after {
+  border: 15px solid #e74c3c; /* $bw */
+  border-bottom: 40px solid transparent; /* $bh + 2 * $pad */
+  border-right: 0;
+  border-top: 0;
+  content: '';
+  display: block;
+  right: -15px; /* $bw */
+  top: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.bc:hover {
+  background: #ee7e6b; /* lighten($color, 5%) */
+}
+
+.bc:hover + .bc,
+.bc + .bc:hover,
+.bc:hover {
+  margin-left: 35px; /* 20 + $bw */
+}
+
+.bc:first-child {
+  margin-left: 15px; /* $bw */
+}
+
+.bc:hover:before {
+  border: 15px solid #ee7e6b; /* lighten($color, 5%) */
+  border-top: 40px solid transparent; /* $bh + 2 * $pad */
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.bc:hover:after {
+  border: 15px solid #ee7e6b; /* lighten($color, 5%) */
+  border-bottom: 40px solid transparent; /* $bh + 2 * $pad */
+  border-right: 0;
+  border-top: 0;
+}
+
+.bc,
+.bc:before,
+.bc:after {
+  transition: all .3s ease-in-out;
+}

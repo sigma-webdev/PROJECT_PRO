@@ -1,0 +1,35 @@
+
+   section {
+    
+    margin: 20px;
+  }
+
+  table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #ffc423;;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+    
+   
+
+  

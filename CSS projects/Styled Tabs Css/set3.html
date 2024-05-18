@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="tabs">
+        <input class="input" name="tabs" type="radio" id="tab-1" checked="checked" />
+        <label class="label" for="tab-1">Login</label>
+        <div class="panel">
+            <h1>Login</h1>
+            <form action="login.php" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+
+        <input class="input" name="tabs" type="radio" id="tab-2" />
+        <label class="label" for="tab-2">Signup</label>
+        <div class="panel">
+            <div class="signup">
+                <h1>Sign Up</h1>
+                <form action="signup.php" method="post">
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+
+        </div>
+
+</body>
+
+</html>

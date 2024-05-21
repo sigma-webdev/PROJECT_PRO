@@ -5,7 +5,3 @@ This project includes One Card ui clone by css that can be used in any web devel
 
 
 ## Output
-
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)

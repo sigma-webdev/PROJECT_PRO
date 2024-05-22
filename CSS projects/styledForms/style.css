@@ -1,0 +1,210 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+/* align center */
+body {
+    margin: auto;
+}
+
+/* common heading */
+h2 {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+
+/* common paragraph */
+p {
+    margin: 3px 0px;
+}
+
+/* google login button */
+.google-cta:hover {
+    background: #0E64D2;
+    color: #fff;
+}
+
+hr {
+    background: #EEE;
+    border: 1px solid #EEE;
+    margin: 4% 0 ;
+}
+
+/* 1. Signup form -  */
+.styled-form {
+    padding: 20px 20px;
+    border: 2px solid #EEE;
+    width:  360px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#signup-form > form {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+#signup-form  input {
+        height: 26px;
+        padding: 4px;
+        margin-bottom: 10px;
+        border: 1px solid #B5C0D0;
+        border-radius: 5px; 
+}
+
+#signup-form  button {
+    height: 36px;
+    padding: 5px;
+    font-size: 16px;
+    background: #0E64D2;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+#signup-form button:hover {
+    background-color: #0e3cd2;
+}
+
+/* google login */
+.google-cta {
+    margin: 8px 0px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    gap: 10px;
+    border-radius: 5px;
+}
+/* box shadow style */
+#signup-form:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+/* google login button */
+.google-cta:hover {
+    background: #0E64D2;
+    color: #fff;
+}
+
+
+/* 2. Login Form section */
+#login-form > form {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+#login-form:hover {
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+}
+#login-form  input {
+    height: 26px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #B5C0D0;
+    border-radius: 5px; 
+}
+#login-form  button {
+height: 36px;
+padding: 5px;
+font-size: 16px;
+background: #0E64D2;
+border: none;
+color: #fff;
+border-radius: 5px;
+margin: 5px 0px;
+}
+
+#login-form button:hover {
+background-color: #0e3cd2;
+}
+
+
+
+/* 3. Contact form Section  */
+#contact-form  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.contact-container > form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-container h2 {
+    text-align: left;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.contact-container label {
+  padding-top: 5px;
+}
+.contact-container  input {
+    height: 26px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    
+}
+.contact-terms {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0
+} 
+.contact-container button {
+    transition: background 0.5s ease, color 0.5s ease;
+    width: 80px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+}
+.contact-container button:hover {
+    background: #fff;
+    color: #000;;
+}
+
+
+/* Feedback form */
+#feedback-form{
+    color: #2071B2;
+}
+#feedback-form h3  {
+  text-align: center;
+}
+#feedback-form p  {
+    font-weight: lighter;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+#feedback-form form {
+    border: 1px solid red;
+    padding: 20px 20px;
+    border: 2px solid #EEE;
+    width:  360px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.f-items {
+    display: flex;
+    flex-direction: column;
+
+}
+.f-input {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.f-input input {
+    height: 26px;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #B5C0D0;
+    border-radius: 5px; 
+}

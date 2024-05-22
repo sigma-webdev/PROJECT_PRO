@@ -1,12 +1,574 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopify clone</title>
+    <!-- Font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-    
+    <header class="header">
+        <!-- --------------- Navbar --------------- -->
+        <div class="navbar">
+            <!-- -------- nav sec 1 -------- -->
+            <div class="nav-section1">
+
+                <img class="logo" src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png"
+                    alt="logo" />
+
+                <ul class="nav-links">
+                    <li>
+                        <a href="#" class="nav-link">
+                            Solutions
+                            <img class="arrow-icon" src="./images/arrow-down.png" alt="arrow-down icon" /></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            Pricing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            Resources
+                            <img class="arrow-icon" src="./images/arrow-down.png" alt="arrow-down icon" /></a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">
+                            What's New
+                            <img class="arrow-icon" src="./images/arrow-down.png" alt="arrow-down icon" /></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-section2"> <a href="#" class="nav-link"> Log in </a>
+                <!-- -------- button -------- -->
+                <button class="cta-button">Start free trial</button>
+            </div>
+
+            <!-- ----- hamburger menu icon ----- -->
+            <div class="hamburger-icon">
+                <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="50px" height="120px">
+                    <path
+                        d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
+                </svg>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="hero-section">
+            <h3>PLANS & PRICING</h3>
+            <h1>Start for free, then enjoy <br>
+                your first month for ₹20</h1>
+            <h3>Choose the best plan for your business. Change plans as you grow.</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Enter your email address" class="input-field">
+                <button class="cta-button1">Start free trial</button>
+            </div>
+            <p>Try Shopify free, no credit card required. By entering your email ,<br> you agree to receive marketing
+                emails from Shopify.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <div class="pricing-container">
+        <div class="pricing-header">
+            <button class="pricing-toggle-active">Pay monthly</button>
+            <button class="pricing-toggle">Pay yearly (save 25%)*</button>
+        </div>
+        <div class="price-bars">
+            <div class="price-bar">
+                <p class="ptag">₹20 for your first month</p>
+                <h2>Basic</h2>
+                <p class="p">Most Popular For solo entrepreneurs</p>
+                <p class="price"><b>₹1,499 </b>INR/month <br><span>billed once yearly</span></p>
+                <hr>
+                <p class="cardp"><b>Card rates starting at</b><br> ✔️2% 3rd-party payment providers</p>
+                <p class="cardp"><b>Standout features</b></p>
+                <ul>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+
+                </ul>
+                <button class="cta-button">Try for free</button>
+            </div>
+            <div class="price-bar">
+                <p class="ptag">₹20 for your first month</p>
+                <h2>Shopify</h2>
+                <p class="p">For small teams</p>
+                <p class="price"><b>₹5,599 </b>INR/month<br><span>billed once yearly</span></p>
+                <hr>
+                <p class="cardp"><b>Card rates starting at</b><br>✔️1% 3rd-party payment providers</p>
+                <p class="cardp"><b>Standout features</b></p>
+                <ul>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                </ul>
+                <button class="cta-button">Try for free</button>
+            </div>
+            <div class="price-bar">
+                <p class="ptag">₹20 for your first month</p>
+                <h2>Advanced</h2>
+                <p class="p">As your business scales</p>
+                <p class="price"> <b>₹22,680</b> INR/month<br><span>billed once yearly</span></p>
+                <hr>
+                <p class="cardp"><b>Card rates starting at</b><br>✔️ 0.6% 3rd-party payment providers</p>
+                <p class="cardp"><b>Standout features</b></p>
+                <ul>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                </ul>
+                <button class="cta-button">Try for free</button>
+            </div>
+            <div class="price-bar">
+                <p class="ptags">Available on a 1- or 3-year term</p>
+                <h2>Plus</h2>
+                <p class="p">For more complex businesses</p>
+                <p class="price"><b>₹1,75,000</b>INR/month<br><span>Starting at on a 3-year
+                        term</span></p>
+                <hr>
+                <p class="cardp"><b>Card rates starting at</b><br>✔️Competitive rates for volume merchants</p>
+
+                <p class="cardp"><b>Standout features</b></p>
+                <ul>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                    <li>✔️10 inventory locations</li>
+                </ul>
+                <button class="cta-button">Get in touch</button>
+            </div>
+        </div>
+        <div class="div">*Yearly discount available on select plans</div>
+    </div>
+
+
+    <div class="pricing-container">
+        <h1>What every plan gets you</h1>
+        <div class="features-grid">
+
+            <div class="feature-card">
+                <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/9d36b48155c935d6912dc78f33dd84cc.svg"
+                    alt="img">
+                <h4>World's best checkout</h4>
+                <p>Shopify checkout converts 15% better on average than other commerce platforms.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/9d36b48155c935d6912dc78f33dd84cc.svg"
+                    alt="img">
+                <h4>In-person selling</h4>
+                <p>Sell in person and keep inventory in sync with online sales—all with Shopify POS.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/9d36b48155c935d6912dc78f33dd84cc.svg"
+                    alt="img">
+                <h4>Multiple sales channels</h4>
+                <p>Promote and sell products on Instagram, TikTok, Google, and other channels.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/9d36b48155c935d6912dc78f33dd84cc.svg"
+                    alt="img">
+                <h4>In-depth analytics</h4>
+                <p>Access reports to track store performance and identify optimisation opportunities.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://cdn.shopify.com/b/shopify-brochure2-assets/9d36b48155c935d6912dc78f33dd84cc.svg"
+                    alt="img">
+                <h4>Commerce apps</h4>
+                <p>Use apps for everything from product sourcing to customizing your store.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="pricing-container">
+        <h1>Alternative solutions for your business</h1>
+        <div class="price-cards">
+            <div class="price-card">
+                <p class="ptag1">₹20 for your first month</p>
+                <h3>Starter</h3>
+                <p class="bold"> <b>₹399 INR/month</b></p>
+                <p class="bold">Sell instantly through social media and messaging apps or a simple online store</p>
+                <div class="lbtn"><button class="learn-more">Learn more</button></div>
+
+            </div>
+            <div class="price-card">
+                <p class="ptag1">₹20 for your first month</p>
+                <h3>Retail</h3>
+                <p class="bold"><b>₹7,000 INR/month</b></p>
+                <p class="bold">In-person selling tools with advanced staff, inventory, and loyalty features</p>
+                <div class="lbtn"><button class="learn-more">Learn more</button></div>
+            </div>
+            <div class="price-card">
+                <p class="ptags1">₹20 for your first month</p>
+                <h3>Enterprise Commerce</h3>
+                <p class="bold"><b>Custom pricing</b></p>
+                <p class="bold">Build agility, speed to deployment, and performance for enterprise organizations</p>
+                <div class="lbtn"><button class="learn-more">Get in touch</button></div>
+            </div>
+        </div>
+
+        <div class="div">
+            <p>All payments will be billed in your selected currency.</p>
+        </div>
+    </div>
+
+
+
+    <div class="merchant-container">
+        <h2>Join millions of merchants on Shopify</h2>
+        <hr>
+        <div class="image-grid">
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="Bajaao">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+            <div class="image-item">
+                <img src="https://cdn.shopify.com/shopifycloud/brochure/assets/cms/logo-soup/en-IN/bajaao-f2a14e9beb29e6a1728e44f94057db8ee90b4d712c708e164f541153b22c8b8f.svg"
+                    alt="M Caffeine">
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="logos">
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+        <div class="logos-slide">
+            <p>START YOUR FREE TRIAL <span class="arrow"> &#8594;</span> </p>
+        </div>
+    </div>
+
+    <div class="questions">
+        <div class="subques">
+            <h1 class="head"> Frequently asked questions</h1>
+        </div>
+        <div class="ques">
+            <h2 class="head1">General questions</h2>
+            <div class="faq">
+                <div class="faq-question">
+                    <div>
+                        <h3>What is Shopify and how does it work?</h3>
+                    </div>
+
+                    <div class="faq-answer">
+                        <p>Shopify is an all-in-one commerce platform built for independent business owners to start,
+                            run, and grow their businesses online, in-store, and everywhere in between.</p>
+                        <br>
+                        <p>Here are just few things you can do with Shopify:</p>
+                        <ul>
+                            <li>Create and customize an online store</li>
+                            <li>Sell in multiple places, including web, mobile, social media, and brick-and-mortar</li>
+                            <li>Manage products, inventory, payments, and shipping</li>
+                            <li>Create, execute, and analyze online marketing campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <span class="circle"></span>
+                </div>
+
+            </div>
+            <div class="faq">
+                <div class="faq-question">
+                    <div>
+                        <h3>What is Shopify and how does it work?</h3>
+                    </div>
+
+                    <div class="faq-answer">
+                        <p>Shopify is an all-in-one commerce platform built for independent business owners to start,
+                            run, and grow their businesses online, in-store, and everywhere in between.</p>
+                        <br>
+                        <p>Here are just few things you can do with Shopify:</p>
+                        <ul>
+                            <li>Create and customize an online store</li>
+                            <li>Sell in multiple places, including web, mobile, social media, and brick-and-mortar</li>
+                            <li>Manage products, inventory, payments, and shipping</li>
+                            <li>Create, execute, and analyze online marketing campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <span class="circle"></span>
+                </div>
+
+            </div>
+            <div class="faq">
+                <div class="faq-question">
+                    <div>
+                        <h3>What is Shopify and how does it work?</h3>
+                    </div>
+
+                    <div class="faq-answer">
+                        <p>Shopify is an all-in-one commerce platform built for independent business owners to start,
+                            run, and grow their businesses online, in-store, and everywhere in between.</p>
+                        <br>
+                        <p>Here are just few things you can do with Shopify:</p>
+                        <ul>
+                            <li>Create and customize an online store</li>
+                            <li>Sell in multiple places, including web, mobile, social media, and brick-and-mortar</li>
+                            <li>Manage products, inventory, payments, and shipping</li>
+                            <li>Create, execute, and analyze online marketing campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <span class="circle"></span>
+                </div>
+
+            </div>
+            <div class="faq">
+                <div class="faq-question">
+                    <div>
+                        <h3>What is Shopify and how does it work?</h3>
+                    </div>
+
+                    <div class="faq-answer">
+                        <p>Shopify is an all-in-one commerce platform built for independent business owners to start,
+                            run, and grow their businesses online, in-store, and everywhere in between.</p>
+                        <br>
+                        <p>Here are just few things you can do with Shopify:</p>
+                        <ul>
+                            <li>Create and customize an online store</li>
+                            <li>Sell in multiple places, including web, mobile, social media, and brick-and-mortar</li>
+                            <li>Manage products, inventory, payments, and shipping</li>
+                            <li>Create, execute, and analyze online marketing campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <span class="circle"></span>
+                </div>
+
+            </div>
+            <div class="faq">
+                <div class="faq-question">
+                    <div>
+                        <h3>What is Shopify and how does it work?</h3>
+                    </div>
+
+                    <div class="faq-answer">
+                        <p>Shopify is an all-in-one commerce platform built for independent business owners to start,
+                            run, and grow their businesses online, in-store, and everywhere in between.</p>
+                        <br>
+                        <p>Here are just few things you can do with Shopify:</p>
+                        <ul>
+                            <li>Create and customize an online store</li>
+                            <li>Sell in multiple places, including web, mobile, social media, and brick-and-mortar</li>
+                            <li>Manage products, inventory, payments, and shipping</li>
+                            <li>Create, execute, and analyze online marketing campaigns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="circle-container">
+                    <span class="circle"></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="hero-section1">
+            <h1>Everything you need to sell online, all in <br>one place</h1>
+            <h3>Whether you’re building a website, managing inventory, or responding to customers, you can do it all
+                with Shopify.</h3>
+            <div class="input-container">
+                <input type="text" placeholder="Enter your email address" class="input-field">
+                <button class="cta-button1">Start free trial</button>
+            </div>
+            <p>Get 3 days free then 1 month for ₹20. <br>
+                By entering your email, you agree to receive marketing emails from Shopify.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+     
+        <div class="container">
+            <div class="footerlogo">
+                <svg fill="none" role="img" viewBox="0 0 56 64" class="h-[44px]" height="64" data-component-name="shopify-logo"><title>Shopify Logo</title><g clip-path="url(#clip0_198_267)"><path d="M37.7102 7.42882C37.7102 7.42882 37.0044 7.6296 35.8448 7.98098C35.6432 7.32843 35.3407 6.57549 34.9374 5.77235C33.6266 3.26255 31.6604 1.90725 29.3414 1.90725C29.1901 1.90725 29.0389 1.90725 28.8372 1.95745C28.7868 1.85706 28.686 1.80686 28.6356 1.70647C27.6273 0.602155 26.3165 0.100194 24.7537 0.15039C21.7288 0.250783 18.7039 2.40921 16.284 6.27431C14.5699 8.9849 13.2591 12.3982 12.9062 15.0586C9.42764 16.1127 7.00774 16.8657 6.95733 16.9159C5.19282 17.468 5.1424 17.5182 4.94075 19.1747C4.7895 20.4296 0.151367 55.7676 0.151367 55.7676L38.2647 62.3433V7.37862C37.9623 7.37862 37.811 7.42882 37.7102 7.42882ZM28.8876 10.1394C26.8711 10.7418 24.6528 11.4445 22.485 12.0971C23.09 9.73784 24.2999 7.37862 25.7115 5.82255C26.2661 5.27039 27.0223 4.61784 27.8794 4.21627C28.7364 6.02333 28.9381 8.48294 28.8876 10.1394ZM24.7537 2.20843C25.4595 2.20843 26.0644 2.35902 26.5686 2.66019C25.7619 3.06176 24.9553 3.71431 24.1991 4.46725C22.2833 6.52529 20.8213 9.73784 20.2163 12.7998C18.4014 13.352 16.5865 13.9041 14.9228 14.4061C16.0319 9.58725 20.1155 2.30882 24.7537 2.20843ZM18.9056 29.8163C19.1072 33.0288 27.6273 33.7316 28.1314 41.3112C28.4843 47.2845 24.9553 51.3504 19.8634 51.6516C13.7129 52.0531 10.3351 48.439 10.3351 48.439L11.6459 42.9174C11.6459 42.9174 15.0237 45.4774 17.746 45.2767C19.5105 45.1763 20.1659 43.7206 20.1155 42.7167C19.8634 38.5002 12.9062 38.7512 12.4525 31.8241C12.0492 26.0014 15.8807 20.1284 24.3503 19.5763C27.6273 19.3755 29.291 20.1786 29.291 20.1786L27.3752 27.4069C27.3752 27.4069 25.2074 26.4029 22.6362 26.6037C18.9056 26.8547 18.8552 29.2139 18.9056 29.8163ZM30.9042 9.53706C30.9042 8.03117 30.7026 5.87274 29.9968 4.06568C32.3158 4.51745 33.4249 7.07745 33.9291 8.63353C33.0216 8.88451 32.0133 9.18568 30.9042 9.53706Z" fill="white"></path><path d="M39.4238 62.2429L55.254 58.3276C55.254 58.3276 48.448 12.4986 48.3976 12.1974C48.3472 11.8963 48.0951 11.6955 47.8431 11.6955C47.591 11.6955 43.1545 11.5951 43.1545 11.5951C43.1545 11.5951 40.4321 8.98488 39.4238 7.98096V62.2429Z" fill="white"></path><path d="M29.2498 20.2129L27.3148 27.4286C27.3148 27.4286 25.1548 26.4426 22.5898 26.6218C18.8098 26.8459 18.8098 29.2213 18.8098 29.8039C19.0348 33.0308 27.5398 33.7479 28.0348 41.3221C28.3948 47.2829 24.8848 51.3613 19.7548 51.6751C13.6348 51.9888 10.2598 48.4034 10.2598 48.4034L11.5648 42.8907C11.5648 42.8907 14.9848 45.4454 17.6848 45.2661C19.4398 45.1765 20.1148 43.6975 20.0248 42.7115C19.7548 38.4986 12.8248 38.7675 12.3748 31.8207C12.0148 25.9944 15.8398 20.1232 24.2998 19.5854C27.5848 19.3613 29.2498 20.2129 29.2498 20.2129Z" fill="black"></path></g><defs><clipPath id="clip0_198_267"><rect width="225" height="64" fill="white"></rect></clipPath></defs></svg>
+            </div>
+
+            
+            <div class="footer-mid">
+     
+                
+                <div class="footer-col">
+                    <!-- 1/3  online store  -->
+                    <ul class="footer-section">
+                        <li class="footer-title">Shopify</li>
+                        <li class="footer-item">Sell online</li>
+                        <li class="footer-item">Features</li>
+                        <li class="footer-item">Examples</li>
+                        <li class="footer-item">Website builder</li>
+                        <li class="footer-item">Online retail</li>
+                    </ul>
+                    <ul class="footer-section">
+                        <li class="footer-title">Support</li>
+                        <li class="footer-item">Contact</li>
+                        <li class="footer-item">Partner program</li>
+                        <li class="footer-item">Affiliate program</li>
+                        <li class="footer-item">App developers</li>
+                        <li class="footer-item">Investors</li>
+                        <li class="footer-item">Blog topics</li>
+                        <li class="footer-item">Community Events</li>
+                    </ul>  <!-- 3/3 -->
+                    <ul class="footer-section">
+                        <li class="footer-title">Developer</li>
+                        <li class="footer-item">Mobile commerce</li>
+                        <li class="footer-item">Ecommerce software</li>
+                        <li class="footer-item">Online store builder</li>
+                        <li class="footer-item">Dropshipping Business</li>
+                        <li class="footer-item">Store themes</li>
+                    </ul>
+                    <!-- 2/3 -->
+                    <ul class="footer-section">
+                        <li class="footer-title">Product</li>
+                        <li class="footer-item">Ecommerce website</li>
+                        <li class="footer-item">Domain names</li>
+                        <li class="footer-item">Themes</li>
+                        <li class="footer-item">Shopping cart</li>
+                        <li class="footer-item">Ecommerce hosting</li>
+                    </ul>
+                  
+                </div>
+       
+                
+                <div class="footer-col1">
+                    <!-- 1/3  online store  -->
+                    <ul class="footer-section">
+                        <li class="footer-title">Global-impact</li>
+                        <li class="footer-item">Point of sale</li>
+                        <li class="footer-item">Features</li>
+                        <li class="footer-item">Websites for sale</li>
+                        <li class="footer-item">Logo Maker</li>
+                        <li class="footer-item">Business name generator</li>
+                        <li class="footer-item">Research</li>
+                        <li class="footer-item">Legal</li>
+                    </ul>
+                    <!-- 2/3 -->
+                    <ul class="footer-section">
+                        <li class="footer-title">Solutions</li>
+                        <li class="footer-item">24/7 support</li>
+                        <li class="footer-item">Shopify Help Center</li>
+                        <li class="footer-item">Shopify Community</li>
+                        <li class="footer-item">API documentation</li>
+                        <li class="footer-item">Free tools</li>
+                        <li class="footer-item">Free stock photos</li>
+                    
+                    </ul>
+                    <!-- 3/3 -->
+                    
+                </div>
+            </div>
+        </div>
+
+        <hr class="divider">
+        <div class="container1">
+            <div class="footer-bottom"> 
+              
+                
+                <div class="legal-links">
+
+                    <a href="#">
+                        <i class="fa-solid fa-globe"></i>
+                        India
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Privacy Choices</a>
+
+                </div>
+                
+                
+                <ul class="social-links">
+                    <a href="#" class="social-icon"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icon"> <i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="social-icon"> <i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="social-icon"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#" class="social-icon"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"> <i class="fa-brands fa-pinterest"></i></a>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

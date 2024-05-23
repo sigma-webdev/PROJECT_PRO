@@ -110,14 +110,14 @@ hr {
     border-radius: 5px; 
 }
 #login-form  button {
-height: 36px;
-padding: 5px;
-font-size: 16px;
-background: #0E64D2;
-border: none;
-color: #fff;
-border-radius: 5px;
-margin: 5px 0px;
+    height: 36px;
+    padding: 5px;
+    font-size: 16px;
+    background: #0E64D2;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
 
 #login-form button:hover {
@@ -173,23 +173,34 @@ background-color: #0e3cd2;
 
 /* Feedback form */
 #feedback-form{
+    padding: 20px 0px;
     color: #2071B2;
+    background: linear-gradient(45deg, #FFDE6A, #0096FF);
 }
 #feedback-form h3  {
   text-align: center;
 }
-#feedback-form p  {
+/* select the first p element */
+#feedback-form p {
+    padding-bottom: 10px;
+}
+#feedback-form p:first-of-type  {
     font-weight: lighter;
     font-size: 14px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
   }
+
+
 #feedback-form form {
-    border: 1px solid red;
+    background: #fff;
     padding: 20px 20px;
     border: 2px solid #EEE;
     width:  360px;
     margin: 10px auto;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .f-items {
     display: flex;
@@ -204,7 +215,49 @@ background-color: #0e3cd2;
 .f-input input {
     height: 26px;
     padding: 3px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border: 1px solid #B5C0D0;
     border-radius: 5px; 
+}
+.emoji-items {
+    display: flex;
+    color: #20B2AA;
+   justify-content: space-between;
+}
+.emoji-items div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll-bar{
+    background: #A5E0DD;
+    height: 8px;
+    margin: 6px 0px 25px 0px;
+    border-radius: 5px;
+}
+
+.scroll-bar-stat {
+    background-color: #105955;
+    border-radius: 5px;
+    height: 8px;
+    width: 10%;
+}
+
+#feedback-form button {
+    height: 36px;
+    padding: 5px;
+    font-size: 16px;
+    background: #20B2AA;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+#feedback-form button:hover {
+    background: #20a1b2;
+}
+
+#feedback-form textarea {
+    padding: 5px;
 }

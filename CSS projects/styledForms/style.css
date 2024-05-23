@@ -336,3 +336,71 @@ background-color: #0e3cd2;
 #survey-form button:hover {
     background: #686868ea;
 }
+
+
+/* 6.Job application survey */
+#job-form span {
+ color: red;
+}
+/* Content Styling */
+job-form h2{
+	font-size: 20px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+
+.application-form .application-form-detail h4{
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+ .form-group{
+	margin: 10px 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+	width: 100%;
+	padding: 8px 5px;
+	border: 1px solid #eee
+	
+}
+form input:focus,
+form select:focus,
+form textarea:focus{
+	
+	border: 1xp solid transparent;
+}
+form .form-inline{
+	display: flex;
+	justify-content: space-between;
+}
+form .form-inline.flex{
+	display: flex;
+	justify-content: start;
+	margin-bottom: 10px;
+}
+form .form-inline.flex input{
+	width: unset;
+	margin-right: 10px;
+}
+form .form-inline .form-group{
+	width: 48%;
+}
+#job-form button{
+	display: block;
+	padding: 6px 10px;
+	background-color: #686868;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s ease-in;
+	margin-left: 5px;
+}
+#job-form button:hover  {
+    background-color: #fff;
+    color: #686868
+}

@@ -193,5 +193,89 @@
             <button>Submit</button>
         </form>
     </section>
+    <hr>
+
+    <!-- Form 6. job application form -->
+    <section id="job-form">
+        <div class="application-form styled-form">
+            <h2>Job Application Form</h2>
+            <div class="application-form-detail">
+                <form>
+                    <h4>Contact Information</h4>
+                    <div class="form-inline">
+                        <div class="form-group">
+                            <label>First Name <span>*</span></label>
+                            <input type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name <span>*</span></label>
+                            <input type="text" id="lname" name="lname" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email <span>*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone <span>*</span></label>
+                        <input type="tel" id="tel" name="tel" minlength="11" maxlength="11" required>
+                    </div>
+                    <br>
+                    <h4>Position</h4>
+    
+                    <div class="form-group">
+                        <label>Position you are applying for <span>*</span></label>
+                        <input type="text" id="position" name="position" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Resume Upload</label>
+                        <input type="file" id="resume" name="resume">
+                    </div>
+                    <div class="form-group">
+                        <label>Portfolio Website</label>
+                        <input type="url" id="website" name="website">
+                    </div>
+                    <div class="form-group">
+                        <label>Salary Requirements</label>
+                        <input type="text" id="salary" name="salary">
+                    </div>
+                    <div class="form-group">
+                        <label>When can you start?</label>
+                        <input type="text" id="joining" name="joining">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label>Are you willing to relocate?</label>
+                        <br>
+                        <div class="form-inline flex">
+                            <input type="radio" id="relocation" name="relocation">
+                            <label>Yes</label>
+                        </div>
+                        <div class="form-inline flex">
+                            <input type="radio" id="relocation" name="relocation">
+                            <label>No</label>
+                        </div>
+                        <div class="form-inline flex">
+                            <input type="radio" id="relocation" name="relocation">
+                            <label>Not Sure</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label>Last company you worked for?</label>
+                        <input type="text" id="last-employer" name="last-employer" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label>Comments</label>
+                        <textarea id="address" name="address" rows="5"></textarea>
+                    </div>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <hr>
+
 </body>
 </html>

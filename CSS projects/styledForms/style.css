@@ -261,3 +261,78 @@ background-color: #0e3cd2;
 #feedback-form textarea {
     padding: 5px;
 }
+
+
+/* Form 5. survey form   */
+#survey-form > p  {
+ 
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #686868;
+ 
+}
+#survey-form > h1 {
+    color: #686868;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.survey-sub  {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px 0px 10px 5px
+}
+
+.survey-sub p {
+    font-size: small;
+    font-weight: normal;
+}
+
+#survey-form > form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 14px;
+}
+
+#survey-form textarea {
+    width: 100%;
+}
+#survey-form p  {
+ font-weight: bold;
+ padding-bottom: 5px;
+}
+ 
+#survey-form span {
+    color: #686868;
+    font-size: small;
+}
+
+.rating div {
+    display: flex;
+}
+
+.rate-items p {
+   border: 1px solid #000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30px;
+   width: 60px;
+   margin-right: 10px;
+   border-radius: 5px;
+}
+
+#survey-form button {
+    height: 36px;
+    padding: 5px;
+    font-size: 16px;
+    background: #686868;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+   
+}
+#survey-form button:hover {
+    background: #686868ea;
+}

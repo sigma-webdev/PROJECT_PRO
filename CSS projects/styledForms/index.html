@@ -325,7 +325,38 @@
     </section>
     <hr>
 
-  
+    <!-- Form 9. Reservation form  -->
+    <section id="reservation-container" class="styled-form">
+            <h2>Table Reservation Form</h2>
+            <form action="#" method="post">
+                <div class="rform-group">
+                    <label for="rname">Full Name</label>
+                    <input type="text" id="rname" name="name" required>
+                </div>
+                <div class="rform-group">
+                    <label for="remail">Email Address</label>
+                    <input type="email" id="remail" name="email" required>
+                </div>
+                <div class="rform-group">
+                    <label for="rphone">Phone Number</label>
+                    <input type="tel" id="rphone" name="phone" required>
+                </div>
+                <div class="rform-group">
+                    <label for="rdate">Reservation Date</label>
+                    <input type="date" id="rdate" name="date" required>
+                </div>
+                <div class="rform-group">
+                    <label for="rtime">Reservation Time</label>
+                    <input type="time" id="rtime" name="time" required>
+                </div>
+                <div class="rform-group">
+                    <label for="rguests">Number of Guests</label>
+                    <input type="number" id="rguests" name="guests" min="1" required>
+                </div>
+                <button type="submit">Reserve Table</button>
+            </form>
+        </div>
+    </section>
 
 </body>
 </html>

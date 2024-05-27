@@ -276,6 +276,41 @@
         </div>
     </section>
     <hr>
+    <section id="event-form" class="styled-form">
+        
+            <h2>Event Registration Form</h2>
+            <form action="/submit_form" method="post">
+                <div class="event-group">
+                    <label for="evname">Full Name</label>
+                    <input type="text" id="evname" name="evname" required>
+                </div>
+                <div class="event-group">
+                    <label for="evemail">Email</label>
+                    <input type="email" id="evemail" name="evemail" required>
+                </div>
+                <div class="event-group">
+                    <label for="evphone">Phone Number</label>
+                    <input type="tel" id="evphone" name="evphone" required>
+                </div>
+                <div class="event-group">
+                    <label for="event">Event</label>
+                    <select id="event" name="event" required>
+                        <option value="">Select an event</option>
+                        <option value="event1">Event 1</option>
+                        <option value="event2">Event 2</option>
+                        <option value="event3">Event 3</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        
+       
+    </section>
+    <hr>
 
 </body>
 </html>

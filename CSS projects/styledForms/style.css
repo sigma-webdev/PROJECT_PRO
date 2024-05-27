@@ -560,3 +560,55 @@ button:hover {
 #reservation-container button:hover {
     background-color: #218838;
 }
+
+/* Form 10 - Product ordering form */
+#order-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#order-container  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.pform-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.pform-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.pform-group input,
+.pform-group select,
+.pform-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#order-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#order-container button:hover {
+    background-color: #0056b3;
+}

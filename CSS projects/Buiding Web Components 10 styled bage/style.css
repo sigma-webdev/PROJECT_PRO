@@ -1,0 +1,127 @@
+body {
+ padding:  0;
+ margin: 0 ;
+ 
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    max-width: fit-content;
+    margin: auto;
+    position: relative;
+    
+}
+
+.badge {
+    margin-bottom: 30px;
+}
+
+span {
+    border: 1px solid #eee;
+    font-size: small;
+    position: absolute;
+    top: -15px;
+}
+
+/* 1.Basic Badge */
+.basic  span{
+    background-color: #ff1e00;
+    color: white;
+    padding: 3px;
+   
+    border-radius: 4px;
+}
+
+/* 2. Rounded Badge */
+.rounded  span{
+    background-color: #7828a7;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+/*  3. Outline Badge */
+.outline span {
+    border: 1px solid #63cc6c;
+    color: #51664e;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+/* 4. Pill Badge (small rounded shape)  */
+.pill span {
+    background-color: #ffc107;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+/* 5. Gradient Badge */
+.gradient span {
+    background: linear-gradient(45deg, #e2dede, #0f0f0f);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+ 
+/* 6. Shadow Badge */
+.shadow span {
+    background-color: #1735b8d3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 7. Neon Badge */
+.neon span {
+    background-color: #000000d0;
+    color: #39ff14;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* 8. Neon Badge */
+.transparent span {
+    background-color: rgba(0, 123, 255, 0.2);
+    color: #007bffb6;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #007bffd2;
+}
+
+/* 9. Neon Badge */
+.textured span {
+    background: url('./check-badge.png');
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    height: 14px;
+    width: 6px;
+    
+}
+
+/* 10. Neon Badge */
+.threeD span {
+    background-color: #6f42c1;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    
+}
+
+.threeD span::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: -3px;
+    bottom: -3px;
+    background-color: #5a33a1;
+    z-index: -1;
+    border-radius: 4px;
+}

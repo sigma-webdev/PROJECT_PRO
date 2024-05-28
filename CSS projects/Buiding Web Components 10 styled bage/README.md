@@ -1,7 +1,7 @@
 # 10 Styled badge components
 This repository contains HTML and CSS code for creating 10 different styled badge components. Each form component is designed with unique styles and layouts to suit various use cases. 
 
-## List of styled form include - 
+## List of styled badges include - 
 1. Basic Badge 
 1. Rounded Badge 
 1. Outline Badge 

@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,54 +19,171 @@
 </head>
 
 <body>
-    <header class="header">
-        <!-- --------------- Navbar --------------- -->
-        <div class="navbar">
-            <!-- -------- nav sec 1 -------- -->
-            <div class="nav-section1">
-
-                <img class="logo" src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png"
-                    alt="logo" />
-
-                <ul class="nav-links">
-                    <li>
-                        <a href="#" class="nav-link">
-                            Solutions
-                            <img class="arrow-icon" src="./images/arrow-down.png" alt="arrow-down icon" /></a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            Pricing
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            Resources
-                            <img class="arrow-icon" src="./images/arrow-down.png" alt="arrow-down icon" /></a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">
-                            What's New
-                            <img class="arrow-icon" src="./images/arrow-down.png" alt="arrow-down icon" /></a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="nav-section2"> <a href="#" class="nav-link"> Log in </a>
-                <!-- -------- button -------- -->
-                <button class="cta-button">Start free trial</button>
-            </div>
-
-            <!-- ----- hamburger menu icon ----- -->
-            <div class="hamburger-icon">
-                <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="50px" height="120px">
-                    <path
-                        d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" />
-                </svg>
-            </div>
+    <nav>
+        <div class="wrapper">
+          <div class="logo">
+            <img
+              class="logo1"
+              src="https://logos-world.net/wp-content/uploads/2020/11/Shopify-Logo.png"
+              alt="logo"
+            />
+          </div>
+          <input type="radio" name="slider" id="menu-btn" />
+          <input type="radio" name="slider" id="close-btn" />
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"
+              ><i class="fas fa-times"></i
+            ></label>
+            <li>
+              <a href="#" class="desktop-item">Solutions</a>
+              <input type="checkbox" id="showMega" />
+              <label for="showMega" class="mobile-item">Solutions</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <header>Manage your business</header>
+                    <ul class="mega-links">
+                      <li><a href="">Track sales, orders</a></li>
+                      <li><a href=""> Measure performance</a></li>
+                      <li><a href="">Analytics Reporting</a></li>
+                      <li><a href="">Manage your orders</a></li>
+                      <li><a href="">Inventory management</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Vectors</a></li>
+                      <li><a href="#">Business cards</a></li>
+                      <li><a href="#">Custom logo</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li>
+              <a href="#" class="desktop-item">Resources</a>
+              <input type="checkbox" id="showMega" />
+              <label for="showMega" class="mobile-item">Resources</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <header>Manage your business</header>
+                    <ul class="mega-links">
+                      <li><a href="">Track sales, orders</a></li>
+                      <li><a href=""> Measure performance</a></li>
+                      <li><a href="">Analytics Reporting</a></li>
+                      <li><a href="">Manage your orders</a></li>
+                      <li><a href="">Inventory management</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Vectors</a></li>
+                      <li><a href="#">Business cards</a></li>
+                      <li><a href="#">Custom logo</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">What's New</a>
+              <input type="checkbox" id="showMega" />
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <header>Manage your business</header>
+                    <ul class="mega-links">
+                      <li><a href="">Track sales, orders</a></li>
+                      <li><a href=""> Measure performance</a></li>
+                      <li><a href="">Analytics Reporting</a></li>
+                      <li><a href="">Manage your orders</a></li>
+                      <li><a href="">Inventory management</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Graphics</a></li>
+                      <li><a href="#">Vectors</a></li>
+                      <li><a href="#">Business cards</a></li>
+                      <li><a href="#">Custom logo</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <div class="nav-section2">
+         <a href="#" class="nav-link"> Log in </a>
+          <button class="cta-button9">Start free trial</button>
         </div>
         </div>
-    </header>
+        
+      </nav>
 
     <section>
         <div class="hero-section">

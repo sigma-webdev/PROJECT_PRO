@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini project of Tailwind CSS</title>
+
+    <!-- using tailwind CSS cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#0A192F]">
+    <!-- nav bar container  -->
+    <header class="px-10 py-5">
+      <nav class="flex items-center justify-between font-mono text-[#64FFDA]">
+        <!-- nav logo -->
+        <div class="bg-[#64FFDA] rounded-lg">
+          <img
+            class="bg-[#0A192F] border rounded-md hover:-translate-y-1 hover:-translate-x-1 transition ease-in-out border-none"
+            src="./assets/icons8-physics-wallah-48.png"
+            alt="Logo Picture"
+          />
+        </div>
+
+        <!-- nav menu items and button -->
+        <div class="flex items-center gap-5">
+          <ol class="flex gap-6 text-[#CCD6F6]">
+
+            <li>
+              <a href="#experience" class="hover:text-[#64FFDA]"
+                ><span class="text-[#64FFDA]">01.</span> Experience</a
+              >
+            </li>
+
+            <li>
+              <a href="#work" class="hover:text-[#64FFDA]">
+                <span class="text-[#64FFDA]">02.</span> Works</a
+              >
+            </li>
+
+          </ol>
+          <div class="bg-[#64FFDA] rounded">
+            <button
+              class="py-1 px-4 border-2 rounded border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out font-mono"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero main container -->
+    <main class="h-[90vh] relative mx-auto flex items-center justify-center">
+      <!-- hero main body -->
+      <div class="w-2/3 mx-auto">
+        <p class="text-[#64FFDA] font-medium font-mono">Hi, my name is</p>
+        <h1
+          class="font-extrabold leading-[65px] text-6xl text-[#CCD6F6] font-sans"
+        >
+          John Doe.<br />
+          <span class="text-[#8892B0]"> I build things for the web. </span>
+        </h1>
+        <p class="py-8 text-xl text-[#8892B0]">
+          I'm a software engineer specializing in building (and occasionally
+          designing) exceptional digital experiences. Currently, I'm focused on
+          building accessible, human-centered products at PW skills.
+        </p>
+        <div class="hover:bg-[#64FFDA] w-56 rounded">
+          <button
+            class="px-10 py-3 border-2 rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-56 font-mono"
+          >
+            Download Resume
+          </button>
+        </div>
+      </div>
+
+      <!-- hero main left -->
+      <div
+        class="fixed bottom-0 flex flex-col flex-wrap items-center justify-end gap-8 left-10 text-[#8892B0]"
+      >
+        <!-- hero social link -->
+        <div class="flex flex-col gap-5">
+          <a
+            href="#git"
+            class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <title>GitHub</title>
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="#insta"
+            class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <title>Instagram</title>
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+
+          <a
+            href="#twitter"
+            class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <title>Twitter</title>
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+              ></path>
+            </svg>
+          </a>
+
+          <a
+            href="#linkedin"
+            class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <title>LinkedIn</title>
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+
+          <a
+            href="#codepen"
+            class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <title>CodePen</title>
+              <polygon
+                points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"
+              ></polygon>
+              <line x1="12" y1="22" x2="12" y2="15.5"></line>
+              <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+              <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
+              <line x1="12" y1="2" x2="12" y2="8.5"></line>
+            </svg>
+          </a>
+        </div>
+        <div class="w-[0.5px] bg-white h-32"></div>
+      </div>
+
+      <!-- hero main right -->
+      <div
+        class="fixed bottom-0 flex flex-col items-center justify-end right-2 gap-32"
+      >
+        <a
+          href="mailto:vinaypratapsingh@gmail.com"
+          class="w-24 rotate-90 text-[#8892B0] hover:text-[#64FFDA] hover:-translate-y-2 transition ease-linear"
+        >
+          johndoe@gmail.com
+        </a>
+        <div class="w-[0.5px] h-32 bg-white"></div>
+      </div>
+    </main>
+  </body>
+</html>

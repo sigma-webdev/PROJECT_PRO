@@ -1,0 +1,94 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  align-items: center;
+}
+
+.accordion {
+  width: 500px;
+  height: 200px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+
+.accordion-title {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-item:hover > .accordion-content {
+  display: block;
+}
+
+.accordion-content > p {
+  padding-left: 10px;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+/* one */
+.accordion-item.one {
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-title.one {
+  background-color: #f4f4f4;
+}
+
+/* two */
+.accordion-title.two {
+  background-color: #6cffdf;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.accordion-item.two {
+  border: 2px solid #000000;
+}
+
+/* three */
+.accordion.Three {
+  background-color: #293b59;
+}
+
+.accordion-title.Three {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-content.Three {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-item.Three {
+  border-bottom: white solid 1px;
+}
+
+/* four */
+
+.accordion-item.four {
+  background-color: #03a678;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.accordion-content.four {
+  background-color: #383838;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-item.four:hover {
+  background-color: #049372;
+}
+
+.accordion-title.four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

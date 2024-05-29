@@ -1,0 +1,712 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+/* align center */
+body {
+    margin: auto;
+}
+
+/*  */
+hr {
+    background: #EEE;
+    border: 1px solid #EEE;
+    margin: 4% 0 ;
+}
+
+/* 1. Signup form - Styles for the signup form container */
+.styled-form {
+    padding: 20px 20px; /* Padding inside the form container */
+    border: 2px solid #EEE; /* Light gray border around the form */
+    width: 360px; /* Width of the form */
+    margin: 10px auto; /* Center the form with margin */
+    border-radius: 10px; /* Rounded corners for the form */
+}
+
+/* Styling the form inside the #signup-form container */
+#signup-form > form {
+    display: flex; /* Use flexbox for layout */
+    gap: 5px; /* Space between form elements */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Styling the input fields inside #signup-form */
+#signup-form input {
+    height: 26px; /* Height of input fields */
+    padding: 4px; /* Padding inside input fields */
+    margin-bottom: 10px; /* Space below each input field */
+    border: 1px solid #B5C0D0; /* Border color for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+/* Styling the button inside #signup-form */
+#signup-form button {
+    height: 36px; /* Height of the button */
+    padding: 5px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    background: #0E64D2; /* Button background color */
+    border: none; /* Remove default button border */
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Rounded corners for the button */
+    margin: 5px 0px; /* Space above and below the button */
+}
+
+/* Button hover effect inside #signup-form */
+#signup-form button:hover {
+    background-color: #0e3cd2; /* Darker blue background on hover */
+}
+
+/* Google login button styling */
+.google-cta {
+    margin: 8px 0px; /* Space above and below the Google button */
+    border: 1px solid; /* Border around the Google button */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 6px; /* Padding inside the Google button */
+    gap: 10px; /* Space between Google button content */
+    border-radius: 5px; /* Rounded corners for the Google button */
+}
+
+/* Box shadow style for #signup-form container on hover */
+#signup-form:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); /* Subtle shadow effect */
+}
+
+/* Google login button hover effect */
+.google-cta:hover {
+    background: #0E64D2; /* Blue background on hover */
+    color: #fff; /* White text color on hover */
+}
+
+
+
+/* 2. Login Form section */
+/* Styling the form inside the #login-form container */
+#login-form > form {
+    display: flex; /* Use flexbox for layout */
+    gap: 5px; /* Space between form elements */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Box shadow style for #login-form container on hover */
+#login-form:hover {
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1); /* Shadow effect on hover */
+}
+
+/* Styling the input fields inside #login-form */
+#login-form input {
+    height: 26px; /* Height of input fields */
+    padding: 4px; /* Padding inside input fields */
+    margin-bottom: 10px; /* Space below each input field */
+    border: 1px solid #B5C0D0; /* Border color for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+}
+
+/* Styling the button inside #login-form */
+#login-form button {
+    height: 36px; /* Height of the button */
+    padding: 5px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    background: #0E64D2; /* Button background color */
+    border: none; /* Remove default button border */
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Rounded corners for the button */
+    margin: 5px 0px; /* Space above and below the button */
+}
+
+/* Button hover effect inside #login-form */
+#login-form button:hover {
+    background-color: #0e3cd2; /* Darker blue background on hover */
+}
+
+
+/* 3. Contact form Section  */
+/* 3. Contact Form section */
+
+/* Styling the #contact-form container */
+#contact-form  {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Arrange children in a row */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    gap: 50px; /* Space between elements inside #contact-form */
+}
+
+/* Styling the form inside the .contact-container */
+.contact-container > form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Styling the h2 heading inside .contact-container */
+.contact-container h2 {
+    text-align: left; /* Align text to the left */
+    padding: 20px 0px; /* Padding above and below the heading */
+    font-weight: bold; /* Bold font for the heading */
+}
+
+/* Styling the labels inside .contact-container */
+.contact-container label {
+    padding-top: 5px; /* Padding above each label */
+}
+
+/* Styling the input fields inside .contact-container */
+.contact-container input {
+    height: 26px; /* Height of input fields */
+    padding: 4px; /* Padding inside input fields */
+    margin-bottom: 10px; /* Space below each input field */
+    border: 1px solid #000; /* Border color for input fields */
+}
+
+/* Styling the terms section inside .contact-container */
+.contact-terms {
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Space between terms elements */
+    padding: 10px 0; /* Padding above and below the terms section */
+}
+
+/* Styling the button inside .contact-container */
+.contact-container button {
+    transition: background 0.5s ease, color 0.5s ease; /* Smooth transition for background and color */
+    width: 80px; /* Width of the button */
+    height: 30px; /* Height of the button */
+    background: #000; /* Button background color */
+    color: #fff; /* Button text color */
+}
+
+/* Button hover effect inside .contact-container */
+.contact-container button:hover {
+    background: #fff; /* White background on hover */
+    color: #000; /* Black text color on hover */
+}
+
+
+
+/* 4. Feedback form */
+/* Styling the #feedback-form container */
+#feedback-form {
+    padding: 20px 0px; /* Padding above and below the form */
+    color: #2071B2; /* Text color */
+    background: linear-gradient(45deg, #FFDE6A, #0096FF); /* Background gradient */
+}
+
+/* Styling the h3 heading inside #feedback-form */
+#feedback-form h3 {
+    text-align: center; /* Center-align the heading text */
+}
+
+/* Styling all p elements inside #feedback-form */
+#feedback-form p {
+    padding-bottom: 10px; /* Space below each paragraph */
+}
+
+/* Styling the first p element inside #feedback-form */
+#feedback-form p:first-of-type {
+    font-weight: lighter; /* Lighter font weight */
+    font-size: 14px; /* Smaller font size */
+    padding-bottom: 20px; /* More space below the first paragraph */
+}
+
+/* Styling the form inside #feedback-form */
+#feedback-form form {
+    background: #fff; /* White background */
+    padding: 20px 20px; /* Padding inside the form */
+    border: 2px solid #EEE; /* Light gray border */
+    width: 360px; /* Width of the form */
+    margin: 10px auto; /* Center the form with margin */
+    border-radius: 10px; /* Rounded corners */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    gap: 10px; /* Space between form elements */
+}
+
+/* Styling the .f-items class */
+.f-items {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Styling the .f-input class */
+.f-input {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 20px; /* Space between input elements */
+}
+
+/* Styling input fields inside .f-input */
+.f-input input {
+    height: 26px; /* Height of input fields */
+    padding: 3px; /* Padding inside input fields */
+    margin-bottom: 25px; /* Space below each input field */
+    border: 1px solid #B5C0D0; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling the .emoji-items class */
+.emoji-items {
+    display: flex; /* Use flexbox for layout */
+    color: #20B2AA; /* Text color */
+    justify-content: space-between; /* Space between emoji items */
+}
+
+/* Styling divs inside .emoji-items */
+.emoji-items div {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align items */
+}
+
+/* Styling the scroll bar */
+.scroll-bar {
+    background: #A5E0DD; /* Background color */
+    height: 8px; /* Height of the scroll bar */
+    margin: 6px 0px 25px 0px; /* Margin around the scroll bar */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling the scroll bar indicator */
+.scroll-bar-stat {
+    background-color: #105955; /* Background color of the indicator */
+    border-radius: 5px; /* Rounded corners */
+    height: 8px; /* Height of the indicator */
+    width: 10%; /* Width of the indicator */
+}
+
+/* Styling the button inside #feedback-form */
+#feedback-form button {
+    height: 36px; /* Height of the button */
+    padding: 5px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    background: #20B2AA; /* Button background color */
+    border: none; /* Remove default button border */
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+    margin: 5px 0px; /* Space above and below the button */
+}
+
+/* Button hover effect inside #feedback-form */
+#feedback-form button:hover {
+    background: #20a1b2; /* Slightly different color on hover */
+}
+
+/* Styling the textarea inside #feedback-form */
+#feedback-form textarea {
+    padding: 5px; /* Padding inside the textarea */
+}
+
+
+
+/* 5. Survey Form */
+/* Styling the paragraph elements directly inside #survey-form */
+#survey-form > p {
+    font-size: 12px; /* Font size for paragraph text */
+    padding-bottom: 10px; /* Space below each paragraph */
+    color: #686868; /* Text color */
+}
+
+/* Styling the h1 heading directly inside #survey-form */
+#survey-form > h1 {
+    color: #686868; /* Text color */
+    font-size: 25px; /* Font size for the heading */
+    padding-bottom: 5px; /* Space below the heading */
+}
+
+/* Styling the .survey-sub class */
+.survey-sub {
+    background-color: #eee; /* Light gray background color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 0px 10px 5px; /* Padding inside the element */
+}
+
+/* Styling the paragraph elements inside .survey-sub */
+.survey-sub p {
+    font-size: small; /* Small font size */
+    font-weight: normal; /* Normal font weight */
+}
+
+/* Styling the form directly inside #survey-form */
+#survey-form > form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    padding-top: 10px; /* Padding above the form */
+    gap: 14px; /* Space between form elements */
+}
+
+/* Styling the textarea elements inside #survey-form */
+#survey-form textarea {
+    width: 100%; /* Full width of the container */
+}
+
+/* Styling the paragraph elements inside #survey-form */
+#survey-form p {
+    font-weight: bold; /* Bold font weight */
+    padding-bottom: 5px; /* Space below each paragraph */
+}
+
+/* Styling the span elements inside #survey-form */
+#survey-form span {
+    color: #686868; /* Text color */
+    font-size: small; /* Small font size */
+}
+
+/* Styling the div elements inside .rating */
+.rating div {
+    display: flex; /* Use flexbox for layout */
+}
+
+/* Styling the paragraph elements inside .rate-items */
+.rate-items p {
+    border: 1px solid #000; /* Black border */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 30px; /* Height of the rating item */
+    width: 60px; /* Width of the rating item */
+    margin-right: 10px; /* Space to the right of each rating item */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling the button directly inside #survey-form */
+#survey-form button {
+    height: 36px; /* Height of the button */
+    padding: 5px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    background: #686868; /* Button background color */
+    border: none; /* Remove default button border */
+    color: #fff; /* Button text color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Button hover effect directly inside #survey-form */
+#survey-form button:hover {
+    background: #686868ea; /* Slightly different color on hover */
+}
+
+
+
+/* 6. Job application survey */
+/* Styling spans inside #job-form */
+#job-form span {
+    color: red; /* Set text color to red */
+}
+
+/* Content Styling */
+
+/* Styling h2 headings inside #job-form */
+#job-form h2 {
+    font-size: 20px; /* Font size for h2 headings */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 15px; /* Space below each h2 heading */
+}
+
+/* Styling for application form details */
+.application-form .application-form-detail h4 {
+    display: block; /* Display h4 headings as block elements */
+    text-transform: uppercase; /* Transform text to uppercase */
+    padding: 5px; /* Padding around h4 headings */
+    margin-bottom: 10px; /* Space below each h4 heading */
+}
+
+/* Styling for form groups */
+.form-group {
+    margin: 10px 5px; /* Margin around form groups */
+}
+
+/* Styling for input, select, and textarea elements inside .form-group */
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%; /* Full width of the container */
+    padding: 8px 5px; /* Padding inside elements */
+    border: 1px solid #eee; /* Border style */
+}
+
+/* Focus styles for input, select, and textarea elements inside the form */
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border: 1px solid transparent; /* Transparent border */
+}
+
+/* Styling for form inline elements */
+form .form-inline {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+}
+
+/* Styling for flex form inline elements */
+form .form-inline.flex {
+    display: flex; /* Use flexbox for layout */
+    justify-content: start; /* Align elements to the start */
+    margin-bottom: 10px; /* Space below each flex form inline */
+}
+
+/* Styling for input elements inside flex form inline */
+form .form-inline.flex input {
+    width: unset; /* Unset width */
+    margin-right: 10px; /* Space to the right of each input */
+}
+
+/* Styling for form groups inside form inline */
+form .form-inline .form-group {
+    width: 48%; /* Width of form groups */
+}
+
+/* Styling for the button inside #job-form */
+#job-form button {
+    display: block; /* Display as block element */
+    padding: 6px 10px; /* Padding inside the button */
+    background-color: #686868; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    cursor: pointer; /* Cursor style */
+    transition: 0.3s ease-in; /* Transition effect */
+    margin-left: 5px; /* Space to the left of the button */
+}
+
+/* Button hover effect */
+#job-form button:hover {
+    background-color: #fff; /* Background color on hover */
+    color: #686868; /* Text color on hover */
+}
+
+
+/* 7. Event Registration Form */
+/* Styling for the #event-form container */
+#event-form {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+}
+
+/* Styling for the h2 heading inside #event-form */
+#event-form h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    text-align: center; /* Center-align the text */
+}
+
+/* Styling for form groups */
+.form-group {
+    margin-bottom: 15px; /* Space below each form group */
+}
+
+/* Styling for labels inside form groups */
+.form-group label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Space below each label */
+}
+
+/* Styling for the .event-group class */
+.event-group {
+    padding-bottom: 10px; /* Padding below each event group */
+}
+
+/* Styling for input, select, and textarea elements inside .event-group */
+.event-group input,
+.event-group select,
+.event-group textarea {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside elements */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for the button inside #event-form */
+#event-form button {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #28a745; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+}
+
+/* Button hover effect */
+#event-form button:hover {
+    background-color: #218838; /* Darker background color on hover */
+}
+
+
+
+/* 8. Newsletter Subscription Form */
+/* Styling for the #news-form container */
+#news-form {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the h2 heading inside #news-form */
+#news-form h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size for the heading */
+}
+
+/* Styling for form groups */
+.form-group {
+    margin-bottom: 15px; /* Space below each form group */
+}
+
+/* Styling for labels inside form groups */
+.form-group label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Bold font weight for labels */
+}
+
+/* Styling for input elements inside form groups */
+.form-group input {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside input elements */
+    border: 1px solid #ced4da; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for the button inside #news-form */
+#news-form button {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+}
+
+/* Button hover effect */
+#news-form button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+/* 9. Reservation Form */
+/* Styling for the #reservation-container container */
+#reservation-container {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Maximum width */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the h2 heading inside #reservation-container */
+#reservation-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size for the heading */
+}
+
+/* Styling for reservation form groups */
+.rform-group {
+    margin-bottom: 15px; /* Space below each form group */
+    text-align: left; /* Align text to the left */
+}
+
+/* Styling for labels inside reservation form groups */
+.rform-group label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Bold font weight for labels */
+}
+
+/* Styling for input elements inside reservation form groups */
+.rform-group input {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside input elements */
+    border: 1px solid #ced4da; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for the button inside #reservation-container */
+#reservation-container button {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #28a745; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+}
+
+/* Button hover effect */
+#reservation-container button:hover {
+    background-color: #218838; /* Darker background color on hover */
+}
+
+
+/* 10. Product Ordering Form */
+
+/* Styling for the #order-container container */
+#order-container {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow effect */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Maximum width */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the h2 heading inside #order-container */
+#order-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size for the heading */
+}
+
+/* Styling for product form groups */
+.pform-group {
+    margin-bottom: 15px; /* Space below each form group */
+    text-align: left; /* Align text to the left */
+}
+
+/* Styling for labels inside product form groups */
+.pform-group label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 5px; /* Space below each label */
+    font-weight: bold; /* Bold font weight for labels */
+}
+
+/* Styling for input, select, and textarea elements inside product form groups */
+.pform-group input,
+.pform-group select,
+.pform-group textarea {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside elements */
+    border: 1px solid #ced4da; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for the button inside #order-container */
+#order-container button {
+    width: 100%; /* Full width of the button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    font-size: 16px; /* Font size */
+}
+
+/* Button hover effect */
+#order-container button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}

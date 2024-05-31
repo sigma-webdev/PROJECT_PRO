@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini project of Tailwind CSS</title>
+
+  <!-- using tailwind CSS cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0A192F]">
+  <!-- nav bar container  -->
+  <header class="px-10 py-5">
+    <nav class="flex items-center justify-between font-mono text-[#64FFDA]">
+      <!-- nav logo -->
+      <div class="bg-[#64FFDA] rounded-lg">
+        <img
+          class="bg-[#0A192F] border rounded-md hover:-translate-y-1 hover:-translate-x-1 transition ease-in-out border border-[#64FFDA]"
+          src="./assets/icons8-physics-wallah-48.png" alt="Logo Picture" />
+      </div>
+
+      <!-- nav menu items and button -->
+      <div class="flex items-center gap-5 ">
+        <ol class="flex gap-6 text-[#CCD6F6] hidden md:block md:flex">
+
+          <li>
+            <a href="#about" class="hover:text-[#64FFDA]"><span class="text-[#64FFDA]">01.</span> About </a>
+          </li>
+
+
+          <li>
+            <a href="#experience" class="hover:text-[#64FFDA]"><span class="text-[#64FFDA]">02.</span> Experience</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="hover:text-[#64FFDA]">
+              <span class="text-[#64FFDA]">03.</span> Projects</a>
+          </li>
+
+        </ol>
+        <div class="bg-[#64FFDA] rounded">
+          <button
+            class="py-1 px-4 border-2 rounded border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out font-mono">
+           <a href="#contact"> Contact </a>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- hero main container -->
+  <main class="h-[90vh] relative mx-auto flex items-center justify-center w-full xl:w-3/4">
+    <!-- hero main body -->
+    <div class="w-full px-4 md:w-2/3 mx-auto">
+      <p class="text-[#64FFDA] font-medium font-mono">Hi, my name is</p>
+      <h1 class="font-extrabold leading-[65px] text-6xl text-[#CCD6F6] font-sans">
+        John Doe.<br />
+        <span class="text-[#8892B0]"> I build things for the web. </span>
+      </h1>
+      <p class="py-8 text-xl text-[#8892B0]">
+        I'm a software engineer specializing in building (and occasionally
+        designing) exceptional digital experiences. Currently, I'm focused on
+        building accessible, human-centered products at PW skills.
+      </p>
+      <div class="hover:bg-[#64FFDA] w-56 rounded">
+        <button
+          class="px-10 py-3 border-2 rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-56 font-mono">
+          Download Resume
+        </button>
+      </div>
+    </div>
+
+    <!-- hero main left -->
+    <div class="hidden md:block md:bottom-0 md:flex flex-col flex-wrap items-center justify-end gap-8 md:left-10 text-[#8892B0] fixed">
+      <!-- hero social link -->
+      <div class="flex flex-col gap-5">
+        <a href="#git" class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <title>GitHub</title>
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a>
+
+        <a href="#insta" class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <title>Instagram</title>
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+
+        <a href="#twitter" class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <title>Twitter</title>
+            <path
+              d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+            </path>
+          </svg>
+        </a>
+
+        <a href="#linkedin" class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <title>LinkedIn</title>
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+
+        <a href="#codepen" class="hover:text-[#64FFDA] hover:-translate-y-1 transition ease-linear">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+            <title>CodePen</title>
+            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
+            <line x1="12" y1="22" x2="12" y2="15.5"></line>
+            <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
+            <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
+            <line x1="12" y1="2" x2="12" y2="8.5"></line>
+          </svg>
+        </a>
+      </div>
+      <div class="w-[0.5px] bg-white h-32"></div>
+    </div>
+
+    <!-- hero main right -->
+    <div class="hidden md:block md:fixed md:bottom-0 md:flex flex-col items-center justify-end md:right-2 gap-32">
+      <a href="mailto:johndoe@gmail.com"
+        class="w-24 rotate-90 text-[#8892B0] hover:text-[#64FFDA] hover:-translate-y-2 transition ease-linear">
+        johndoe@gmail.com
+      </a>
+      <div class="w-[0.5px] h-32 bg-white"></div>
+    </div>
+  </main>
+
+
+  <!-- about me section -->
+  <section id="about" class="py-20 pl-5 pr-5 mx-auto md:pr-0 md:pl-0 md:w-4/6 xl:w-3/6">
+    <!-- about heading -->
+    <div class="flex items-center justify-start gap-10  pb-10">
+      <h2 class="text-2xl font-extrabold text-[#ccd6f6] font-mono ">
+        01. About Me
+      </h2>
+      <div class="w-20 md:w-60 h-[0.5px] bg-[#8892b0]"></div>
+    </div>
+
+    <div class="flex flex-col-reverse md:flex-row flex-wrap justify-center lg:justify-between gap-10  xl:gap-16 lg:flex-nowrap ">
+      <!-- about description -->
+      <div class="text-[#8892B0] md:w-3/4 ">
+        <p class="md:text-xl">
+          I'm a passionate frontend developer, dedicated to crafting
+          engaging and user-centric web experiences. While I have a good
+          understanding of backend development, my true passion lies in
+          creating captivating frontend interfaces. My journey in the
+          world of web development has equipped me with a robust skill set
+          in JavaScript, React.js, Next.js, and TypeScriptJS.
+
+          <!-- skills section -->
+        </p>
+
+        <p class="mt-5 text-xl">
+          Here a few technologies I've been working with recently:
+        </p>
+        <div class="flex justify-around mt-2">
+          <ul class="list-image-[url(./listIcon.png)]">
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
+          <ul class="list-image-[url(./listIcon.png)]">
+            <li>Typescript</li>
+            <li>Tailwind</li>
+            <li>Nextjs</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- hero image -->
+      <div class="pr-10 mx-auto md:pr-0">
+        <div class="relative w-48 mx-auto md:w-60 h-full md:h-60 group">
+          <img class="transition ease-linear rounded-md group-hover:-translate-y-3 -z-0 group-hover:-translate-x-2"
+            src="./assets/image.png" alt="profile image" />
+          <div
+            class="absolute w-full top-0 h-full bg-[#60E8CD] opacity-40 group-hover:opacity-0 transition ease-in-out rounded-md">
+          </div>
+          <div
+            class="absolute top-6 -right-6 border-2 border-[#64FFDA] rounded-md h-[100%] w-[100%] -z-10 translate-x-1 group-hover:translate-x-4 group-hover:translate-y-1 transition ease-in-out">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- experience section -->
+  <section id="experience" class="pl-5 pr-5 mx-auto md:w-4/6 md:py-20 md:pr-0 md:pl-0 xl:w-3/6">
+    <!-- Experience heading -->
+    <div class="flex items-center justify-start gap-10 pb-10">
+      <h2 class="text-2xl font-extrabold text-[#ccd6f6] font-mono">
+        02. Where I've Worked
+      </h2>
+      <div class="w-20 md:w-60 h-[0.5px] bg-[#8892b0]"></div>
+    </div>
+
+    <!-- Work place section  -->
+    <div class="text-[#8892B0] flex justify-between gap-5">
+      <div
+        class="hidden md:flex flex-col items-center w-[40%] justify-start border-l-[0.1px] border-gray-800 text-center">
+        <p class="bg-[#64ffdb13] w-[100%] text-xl border-l-[0.5px]">
+          Ineuron.ai <span class="text-sm"> (PW Skills)</span>
+        </p>
+
+      </div>
+
+      <div>
+        <div class="pb-10">
+          <h3 class="text-2xl">
+            Associate Developer
+            <span class="text-[#64FFDA]">@inueron</span>
+          </h3>
+          <p>May 2021 - Present</p>
+        </div>
+
+        <ul class="list-image-[url(./listIcon.png)] md:text-lg">
+          <li class="pb-4 pl-1">
+            Deliver high-quality, robust production code for a diverse
+            array of projects for clients including Harvard Business
+            School, Everytown for Gun Safety, Pratt Institute, Koala
+            Health, Vanderbilt University, The 19th News, and more
+          </li>
+          <li class="pb-4 pl-1">
+            Work alongside creative directors to lead the research,
+            development, and architecture of technical solutions to
+            fulfill business requirements
+          </li>
+          <li class="pb-4 pl-1">
+            Collaborate with designers, project managers, and other
+            engineers to transform creative concepts into production
+            realities for clients and stakeholders
+          </li>
+          <li class="pb-4 pl-1">
+            Provide leadership within engineering department through close
+            collaboration, knowledge shares, and mentorship
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="py-10 mx-auto md:py-20 pl-5 pr-5 lg:p-0 md:w-4/6 xl:w-3/6 " id="projects">
+    <div class="">
+      <h2 class="text-2xl font-extrabold text-[#ccd6f6] font-mono">
+        03. Projects
+      </h2>
+      <p class="text-md text-[#64FFDA]">build and grow 🚀</p>
+    </div>
+
+    <!-- project container -->
+    <div class="flex flex-wrap justify-center gap-10 mt-5 border-1">
+      <!-- project cards  -->
+      <!-- product one -->
+      <div
+        class="p-4 space-y-10 h-96 w-80  md:w-72 2xl:w-72 rounded-md bg-[#112240] hover:-translate-y-2 transition ease-in-out shadow-lg">
+        <div class="flex items-center justify-between">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-8 2xl:h-10 text-[#64FFDA]">
+            <title>Folder</title>
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+          </svg>
+
+          <div class="flex justify-around gap-2 text-[#8892B0]">
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>External Link</title>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="space-y-10">
+          <h3 class="text-xl 2xl:text-xl text-[#ccd6f6] font-bold pb-4">
+            Integrating Algolia Search with WordPress Multisite
+          </h3>
+          <p class=" text-base text-[#8892B0]">
+            Building a custom Multisite compatible Word press plugin to
+            build global search with Algolia
+          </p>
+          <ul class="flex justify-between pt-5 text-sm 2xl:text-md text-base text-[#8892B0]">
+            <li>Algolia</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- product two -->
+      <div
+        class="p-4 space-y-10 h-96 w-80  md:w-72 2xl:w-72 rounded-md bg-[#112240] hover:-translate-y-2 transition ease-in-out shadow-lg">
+        <div class="flex items-center justify-between">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-8 2xl:h-10 text-[#64FFDA]">
+            <title>Folder</title>
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+          </svg>
+
+          <div class="flex justify-around gap-2 text-[#8892B0]">
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>External Link</title>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="space-y-10">
+          <h3 class="text-xl 2xl:text-xl text-[#ccd6f6] font-bold pb-4">
+            Integrating Algolia Search with WordPress Multisite
+          </h3>
+          <p class=" text-base text-[#8892B0]">
+            Building a custom Multisite compatible Word press plugin to
+            build global search with Algolia
+          </p>
+          <ul class="flex justify-between pt-5 text-sm 2xl:text-md text-base text-[#8892B0]">
+            <li>Algolia</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- product three -->
+      <div
+      class="p-4 space-y-10 h-96 w-80  md:w-72 2xl:w-72 rounded-md bg-[#112240] hover:-translate-y-2 transition ease-in-out shadow-lg">
+      <div class="flex items-center justify-between">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-8 2xl:h-10 text-[#64FFDA]">
+          <title>Folder</title>
+          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+        </svg>
+
+        <div class="flex justify-around gap-2 text-[#8892B0]">
+          <a href="github.com">
+            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+              <title>GitHub</title>
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+          </a>
+          <a href="github.com">
+            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+              <title>External Link</title>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="space-y-10">
+        <h3 class="text-xl 2xl:text-xl text-[#ccd6f6] font-bold pb-4">
+          Integrating Algolia Search with WordPress Multisite
+        </h3>
+        <p class=" text-base text-[#8892B0]">
+          Building a custom Multisite compatible Word press plugin to
+          build global search with Algolia
+        </p>
+        <ul class="flex justify-between pt-5 text-sm 2xl:text-md text-base text-[#8892B0]">
+          <li>Algolia</li>
+          <li>WordPress</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+    </div>
+
+      <!-- product four -->
+      <div
+        class="p-4 space-y-10 h-96 w-80  md:w-72 2xl:w-72 rounded-md bg-[#112240] hover:-translate-y-2 transition ease-in-out shadow-lg">
+        <div class="flex items-center justify-between">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-8 2xl:h-10 text-[#64FFDA]">
+            <title>Folder</title>
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+          </svg>
+
+          <div class="flex justify-around gap-2 text-[#8892B0]">
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>External Link</title>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="space-y-10">
+          <h3 class="text-xl 2xl:text-xl text-[#ccd6f6] font-bold pb-4">
+            Integrating Algolia Search with WordPress Multisite
+          </h3>
+          <p class=" text-base text-[#8892B0]">
+            Building a custom Multisite compatible Word press plugin to
+            build global search with Algolia
+          </p>
+          <ul class="flex justify-between pt-5 text-sm 2xl:text-md text-base text-[#8892B0]">
+            <li>Algolia</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- product five -->
+      <div
+        class="p-4 space-y-10 h-96 w-80  md:w-72 2xl:w-72 rounded-md bg-[#112240] hover:-translate-y-2 transition ease-in-out shadow-lg">
+        <div class="flex items-center justify-between">
+          <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-8 2xl:h-10 text-[#64FFDA]">
+            <title>Folder</title>
+            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+          </svg>
+
+          <div class="flex justify-around gap-2 text-[#8892B0]">
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>GitHub</title>
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </a>
+            <a href="github.com">
+              <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+                <title>External Link</title>
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="space-y-10">
+          <h3 class="text-xl 2xl:text-xl text-[#ccd6f6] font-bold pb-4">
+            Integrating Algolia Search with WordPress Multisite
+          </h3>
+          <p class=" text-base text-[#8892B0]">
+            Building a custom Multisite compatible Word press plugin to
+            build global search with Algolia
+          </p>
+          <ul class="flex justify-between pt-5 text-sm 2xl:text-md text-base text-[#8892B0]">
+            <li>Algolia</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- product six -->
+      <div
+      class="p-4 space-y-10 h-96 w-80  md:w-72 2xl:w-72 rounded-md bg-[#112240] hover:-translate-y-2 transition ease-in-out shadow-lg">
+      <div class="flex items-center justify-between">
+        <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-8 2xl:h-10 text-[#64FFDA]">
+          <title>Folder</title>
+          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+        </svg>
+
+        <div class="flex justify-around gap-2 text-[#8892B0]">
+          <a href="github.com">
+            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+              <title>GitHub</title>
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+          </a>
+          <a href="github.com">
+            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6">
+              <title>External Link</title>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="space-y-10">
+        <h3 class="text-xl 2xl:text-xl text-[#ccd6f6] font-bold pb-4">
+          Integrating Algolia Search with WordPress Multisite
+        </h3>
+        <p class=" text-base text-[#8892B0]">
+          Building a custom Multisite compatible Word press plugin to
+          build global search with Algolia
+        </p>
+        <ul class="flex justify-between pt-5 text-sm 2xl:text-md text-base text-[#8892B0]">
+          <li>Algolia</li>
+          <li>WordPress</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+    <div class="hover:bg-[#64FFDA] w-44 rounded mx-auto my-10">
+      <button
+        class="px-10 py-3 border-2 rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-44 font-mono">
+        Show more
+      </button>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact" class="w-5/6 md:w-4/6 2xl: py-10 mx-auto xl:w-3/6">
+    <div class="flex gap-10 justify-center lg:justify-between">
+      <img class="hidden lg:block" src="./assets/contact-telephone.jpg" alt="contact image" width="300" height="700">
+      <div>
+        <h2 class="text-2xl font-extrabold text-[#ccd6f6] font-mono pb-4">
+          Contact Me
+        </h2>
+        <p class="text-md text-[#64FFDA] pb-10"> Let's talk and build your product together </p>
+
+        <form action="#" class="flex flex-col justify-start items-start gap-8">
+          <input class="w-full p-1" type="email" id="mail" placeholder="Enter your mail">
+          <input class="w-full p-1" type="text" id="name" placeholder="Enter your name">
+          <textarea class="p-1 w-full" rows="5" cols="50" placeholder="Write your message">
+          </textarea>
+          <div class="hover:bg-[#64FFDA] w-28 rounded ">
+            <button
+              class="p-2 border-2 rounded text-[#64FFDA] border-[#64FFDA] hover:-translate-y-1 hover:-translate-x-1 bg-[#0A192F] transition ease-in-out w-28 font-mono">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="pt-44 pb-5 text-center">
+      <p class="text-[#ccd6f6]">Built with 💙 by Mang</p>
+      <p class="text-[#8892b0]">Inspired from Brittany Chiang</p>
+      <p class="text-[#8892b0]">2024</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

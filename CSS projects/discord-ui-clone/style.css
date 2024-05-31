@@ -1,0 +1,348 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+/*  main section with nav bar 
+    and hero section
+*/
+
+main {
+    position: relative;
+    height: 100vh;
+    height: 550px;
+   background-repeat: no-repeat;
+    background-color: #404EED ;
+    padding: 15px 0px;
+    font-family: "Noto Sans", sans-serif;
+    background-image: url(./assets/herobg.svg);
+    background-position: center bottom;
+    overflow: hidden;
+}
+/*  nav button */
+nav {
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap: 125px;
+    color: #FFFFFF;
+   
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    padding: 10px 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px 0px;
+    font-size: smaller;
+}
+
+.btn-login {
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-login:hover {
+    color: #404EED;
+    box-shadow: 0px 6px 5px 1px  rgba(0, 0, 0, 0.3);
+}
+
+.nav-menu {
+    display: none;
+}
+
+/* nav body text */
+.main-hero-body {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6%;
+    
+    
+}
+.hero-body-title {
+    color: white;
+font-size: 2.4rem;
+font-weight: 900;
+padding-bottom: 5px;
+}
+.hero-body-subTitle {
+    color: #ffffff;
+}
+
+/* hero section call to action button */
+.hero-cta-btn {
+    display: flex;
+    position: relative;
+    z-index: 110;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-cta-btn1 {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    justify-content: center;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+}
+
+.hero-cta-btn2 {
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.hero-cta-btn2:hover {
+    background-color: #23272A;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 1px grey
+} 
+
+.hero-cta-btn1:hover {
+    color: #5865F2;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 1px grey
+} 
+
+
+
+
+.hero-image {
+    position: absolute;
+    
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    justify-content: space-evenly;
+    gap: 60%;
+    align-items: baseline;
+
+    
+}
+
+
+/* study group section */
+.section-group {
+  
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.section-group > img {
+    height: 340px;
+    
+}
+
+.group-description {
+    width: 380px;
+}
+.group-description > h2 {
+    font-size: 2.8rem;
+    margin-bottom: 25px;
+}
+
+.group-description > p {
+    font-size: 20px;
+    color: #23272a;
+    line-height: 32px;
+
+}
+
+/* hangout section */
+.hangout {
+    background-color: #F6F6F6;
+}
+
+/* reliable tech */
+.reliable-section {
+    height: 1000px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.reliable-description > h2 {
+    font-size: 40px;
+
+    font-weight: 900;
+}
+
+.chill-cta {
+
+    background-image: url(./assets/chill-bg.svg);
+    background-repeat: no-repeat;
+}
+
+.chill-cta > h3 {
+  padding: 30px;
+  font-size: 30px;
+}
+
+.chill-cta > a , .chill-cta > button{
+  
+    background-color: #5865F2;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+    /* vertical-align: 5px; */
+
+    text-decoration: none;
+}
+
+.download-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: fit-content;
+    margin: auto;
+}
+.download-cta:hover {
+    background-color: #5865f2ec;
+    box-shadow: 0px 2px 8px 1px grey
+}
+
+
+/* footer section */
+.footer {
+    height: 611px;
+    color: #FFFFFF;
+    font-size: 14px;
+    background-color: #23272A;
+}
+
+.f-one {
+    display: flex;
+    justify-content: space-between;
+   
+    padding-top: 5%;
+    list-style-type: none;
+    padding-bottom: 5%;
+    margin: 0 3%;
+
+    
+
+}
+.f-product > ul, .f-company > ul, .f-resources > ul, .f-policies > ul  {
+   list-style-type: none;
+}
+
+.f-social {
+    /* flex-basis: 15%; */
+
+    width: 25%;
+
+}
+.s-item-container {
+   display: flex;
+   gap: 10%;
+   width: 65%;
+
+ 
+}
+
+.f-s-language {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap: 5px;
+    margin-bottom: 50px;
+   
+}
+.f-s-language > img:first-child {
+    width: 24px;
+    height: 16px;
+}
+.f-s-links  {
+
+     display: flex;
+     gap: 10%;
+     justify-content: space-between;
+}
+.s-item {
+    /* border: 1px solid blue; */
+    width: 40%;
+    
+}
+
+.s-item > p {
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #2946E6;
+}
+
+.s-item li {
+    padding-bottom: 8px;
+}
+
+.f-link {
+
+    padding: 3px 0;
+}
+.f-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.line-row {
+    width: 95%;
+    border: 1px solid #2946E6;
+    margin: auto;
+}
+
+.f-two  {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+}
+
+/* footer signup button */
+.btn-signup {
+    background-color: #2946E6;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-signup:hover {
+    background-color: #5896f2;
+}
+
+/* footer discord logo */
+.logo-discord {
+    cursor: pointer;
+}
+
+
+

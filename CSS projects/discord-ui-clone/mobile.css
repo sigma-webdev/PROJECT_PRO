@@ -1,0 +1,173 @@
+@media  screen and (max-width:768px) {
+    main {
+        height: 626px;
+    }
+    nav > ul {
+        display: none;
+    }
+    /* show nav menu */
+    .nav-menu {
+        display: block;
+        width: 40px;
+
+
+    }
+    nav {
+
+      justify-content: space-between;
+      padding: 15px;
+
+    }
+    .nav-cta {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .main-hero-body {
+        margin: 10% 0 0 10px;
+        text-align: start;
+    }
+    .hero-body-title{
+        line-height: 4rem;
+        margin-bottom: 30px;
+    }
+
+    /* call to action button for download and browser */
+    .hero-cta-btn {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        margin-top: 15px;
+        
+    }
+    .hero-image {
+      
+        justify-content: flex-end;
+        
+    }
+    .hero-leftImage {
+        display: none;
+    }
+    .hero-rightImage {
+        position: relative;
+        right: -200px;
+    }
+
+    /* study group responsive */
+    .group-description {
+        width: 350px;
+    }
+    .section-group > img {
+        height: 216px;
+    }
+
+    /* reliable tech section */
+    .reliable-section  > img{
+        height: 417px;
+        width: 100%;
+    }
+
+    /* footer size */
+    .f-one {
+        padding-bottom: 5px;
+    }
+    .s-item-container {
+        flex-wrap: wrap;
+        width: 50%;
+       
+        justify-content: flex-start;
+    }
+    
+
+}
+/* mobile screen */
+@media  screen and (max-width: 425px) {
+    main {
+        height: 720px;
+ 
+    }
+    .hero-body-title {
+        margin-bottom: 0;
+    }
+
+    .main-hero-body {
+        width: 93%;
+    
+    }
+
+    .hero-body-title {
+        font-size: 1rem;
+
+    }
+
+    .section-group {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .reliable-section > img {
+      height: 229px;
+      width: 100%;
+       
+    }
+
+
+
+    /* footer section */
+    .footer {
+        height: 985px;
+    }
+    .f-social {
+        flex-wrap: wrap;
+       margin-top: 20%;
+       margin-bottom: 15%;
+       
+    }
+    .f-one {
+        flex-direction: column;
+      
+    }
+    .f-social {
+        width: 50%;
+    }
+
+    .s-item-container {
+        width: 90%;
+        gap: 30px;
+        margin-bottom: 15%;
+     }
+     .f-two {
+        margin-top: 20px;
+        align-items: center;
+     }
+
+     .group-description > h2 {
+       font-size: 1.2rem;
+     }
+
+     .group-description > p {
+        font-size: 1rem;
+     }
+
+     .hangout {
+        flex-direction: column-reverse;
+     }
+
+     .reliable-section {
+        height: 750px;
+     }
+
+     .hero-rightImage {
+        display: none;
+     }
+     .hero-leftImage {
+        display: block;
+        height: 250px;
+     }
+     .group-description {
+        width: 300px;
+    }
+
+}
+

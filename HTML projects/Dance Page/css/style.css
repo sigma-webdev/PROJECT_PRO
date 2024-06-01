@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #F5F2F0;
+}
+
+
+/* NAVBAR BEGINS */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  height: 8vh;
+
+}
+
+
+.logo>img{
+  height: 4.5rem;
+}
+
+
+.list{
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+
+.list{
+  list-style-type: none;
+  float: right;
+}
+
+
+.list>li{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+
+.nav-link{
+  color: #929191;
+}
+
+
+.active-link{
+  color: #000;
+}
+
+
+.list::before{
+  content: "";
+  display: block;
+  width: 35rem;
+  height: 0.2rem;
+  background-color: #000;
+}
+
+
+.burger{
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  border: 0.1rem solid transparent;
+  padding: 1.4rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+
+
+.burger:hover{
+  border: 0.1rem solid #fffefe;
+}
+
+
+.burger>div{
+  background-color: #000;
+  height: 0.8rem;
+  width: 5rem;
+}
+
+
+
+
+/* NAVBAR ENDS */
+
+
+/* MAIN SECTION BEGINS*/
+
+.main{
+  display: flex;
+  margin: 4rem 0rem;
+  margin-bottom: 0rem;
+  height: 86vh;
+}
+
+
+.left-section{
+  width: 40%;
+}
+
+
+.left-section>img{
+  position: absolute;
+  top: 0rem;
+  width:35%;
+  height:100vh;
+  z-index: -1;
+}
+
+.right-section{
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.creative{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.headings{
+  width:60%
+}
+
+
+.hollow,.filled{
+  font-family: 'Merriweather';
+  font-size: 14rem;
+}
+.hollow{
+  color: black;
+  -webkit-text-fill-color: #F5F2F0; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  
+}
+
+.filled{
+  text-align: end;
+  color: #333333;
+}
+
+.para{
+  position: relative;
+}
+
+p{
+  position: absolute;
+  bottom: 0rem;
+  left: 2rem;
+  font-family: 'Merriweather';
+  font-size: 4rem;
+  color: #8A8A8A;
+}
+
+.socials{
+  position: absolute;
+  right: 10rem;
+  margin: 2.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6rem;
+}
+
+.logo{
+  height: 3rem;
+}
+
+
+.btn{
+  width: 32rem;
+  height: 6rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem ;
+  font-weight: 500;
+  background-color: #333333;
+  color: #ffffff;
+  margin-left: 71rem;
+}
+
+
+
+
+.bottom{
+  display: flex;
+  padding: 2rem 0rem;
+  padding-bottom: 0rem;
+  gap: 8.4rem;
+}
+
+
+.content-list-div{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.list-right{
+  width: 40%;
+}
+
+
+.content-list{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.content{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  gap:2rem;
+}
+
+.content::before{
+  position: relative;
+  content: " ";
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  background-color: #838382;
+}
+.active::before{
+  position: relative;
+  background-color: #000;
+}
+
+/* .active::after   {
+  position: absolute;
+  content: "";
+  bottom: 0rem;
+  height: 34rem;
+  border-left: 1px solid #828282;
+  margin-left: 0.5rem;
+  z-index: 9;
+} */
+
+.quotes{
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+
+.right-para>h3{
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+
+.bottom-img>img{
+  width:100%;
+  height: 25.3rem;
+}
+
+.arrow > img{
+  margin-top: 8.5rem;
+}
+
+
+
+@media screen and (max-width:1750px) {
+
+  html{
+    font-size: 61%;
+  }
+}
+
+
+@media screen and (max-width:1700px) {
+
+  html{
+    font-size: 58%;
+  }
+}
+
+
+@media screen and (max-width:1600px) {
+
+  html{
+    font-size: 56%;
+  }
+}
+
+@media screen and (max-width:1500px) {
+  html{
+    font-size: 52%;
+  }
+}
+
+@media screen and (max-width:1400px) {
+
+  html{
+    font-size: 50%;
+  }
+}
+
+
+@media screen and (max-width:1300px) {
+
+  html{
+    font-size: 42%;
+  }
+}
+
+
+@media screen and (max-width:1100px) {
+
+  html{
+    font-size: 38%;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+
+  html{
+    font-size: 40%;
+  }
+
+  .list{
+    display: none;
+  }
+
+  .burger{
+    display: inherit;
+  }
+  .main{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+
+  .left-section,.right-section{
+    width: 50%;
+  }
+
+
+  .left-section>img{
+    position: inherit;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+  }
+
+
+  .creative{
+    flex-direction: column;
+  }
+
+  .headings{
+    width: 100%;
+  }
+
+  .para{
+    position: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  p{
+    position:inherit;
+    left: 0rem;
+  }
+
+  .socials{
+    position: inherit;
+    flex-direction: row;
+    gap:0rem;
+    justify-content: space-around;
+    margin: 5rem 0rem;
+    order: -1;
+  }
+
+  .logo{
+    height: 4rem;
+  }
+
+  .btn-div{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .btn{
+    margin-left: 0rem;
+  }
+
+  .bottom{
+    flex-direction: column;
+    align-items: center;  
+    margin-top: 5rem;
+  }
+
+  .content-list-div, .list-right{
+    width: 80%;
+  }
+
+
+  .content{
+    font-size: 3rem;
+  }
+
+  .content::before{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  .quotes{
+    width: 8rem;
+  }
+
+  .right-para>h3{
+    font-size: 3rem;
+  }
+
+.arrow{
+  display: none;
+}
+}
+
+@media screen and (max-width:1000px) {
+  .left-section,.right-section{
+    width: 80%;
+  }
+}

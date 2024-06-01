@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* NAVBAR BEGINS */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8rem;
+    height: auto;
+    background-color: #636C79;
+}
+
+
+
+
+.logo>img{
+    height: 4.5rem;
+}
+
+.list{
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+
+.list{
+    list-style-type: none;
+    float: right;
+}
+.list>li{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nav-btn{
+    background-color: transparent;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    padding: 0.8rem 3.3rem;
+    margin-left: 10rem;
+    cursor: pointer;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+.active{
+    color: #ffffff;
+}
+
+
+.burger{
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    border: 0.1rem solid transparent;
+    padding: 1.4rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.burger:hover{
+    border: 0.1rem solid #fffefe;
+}
+
+.burger>div{
+    background-color: #fffefe;
+    height: 0.8rem;
+    width: 5rem;
+}
+
+
+
+
+/* NAVBAR ENDS */
+
+
+/* MAIN SECTION BEGINGSS */
+
+.main-section{
+    background-color: #636C79;
+    display: flex;
+    padding: 4rem 10rem ;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+}
+
+.main-image{
+    width:70%;
+    border-radius: 1rem;
+}
+
+
+.right-section{
+    width: 60%;
+}
+
+.main-heading{
+    color: #fff;
+    font-size: 7rem;
+    width:90%;
+    margin-top: 5rem;
+}
+
+
+.main-para{
+    color: #fff;
+    width: 80%;
+    margin-top: 5rem ;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.8;
+    padding-bottom: 5rem;
+}
+
+
+.main-search-box i {
+    position: relative;
+    left: -54.5rem;
+    top:  0.5rem;
+  } 
+
+
+  
+  .main-text-box {
+    background-color: #ffffff;
+    border: none;
+    color: #9c9d9f;
+    height: 6rem;
+    width: 50rem;
+    padding: 0.1rem 0.1rem 0.1rem 5rem;
+    font-size: 2.1rem;
+  }
+  
+  .main-button {
+    position: relative;
+    right: 20.3rem;
+    height: 5.2rem;
+    width: 16rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fdfefe;
+    background-color: #8bb7a2;
+    border: none;
+  }
+
+
+
+
+/* MAIN SECTION ENDS */
+
+
+/* TARGET SRCTION BEGINS */
+
+.target-section{
+    margin: 10rem 0rem;
+
+}
+
+
+
+
+.target-header, .career-header{
+    font-size: 6rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    margin: 0rem  auto;
+    margin-bottom: 5rem;
+}
+
+.target-numbers{
+    display: flex;
+    justify-content:space-around;
+    margin: 0rem 15rem;
+    align-items: center;
+
+    
+}
+
+
+.target-numbers div h3 {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+
+.target-numbers div p {
+    color: #667070;
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+}
+
+.img-div{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+
+.target-video{
+    margin-top: 5rem;
+    /* height: 70rem; */
+    width: 80%;
+    object-fit: cover;
+}
+
+
+
+
+/* TARGET SECTION ENDS */
+
+
+/* CAREER SECTION BEGINS */
+
+.career-header{
+    width: 40%;
+}
+
+.career-sub-section{
+    display: flex;
+    margin: 10rem 20rem;
+}
+
+
+.left-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    
+}
+
+.sub-heading{
+    font-size: 5rem;
+    width: 80%;
+}
+
+.sub-para{
+    font-size: 2.4rem;
+    width: 80%;
+    margin-top: 5rem;
+    line-height: 4rem;
+    color: #5E5F62;
+}
+
+
+.right-section{
+    width: 50%;
+    /* display: flex; */
+    
+}
+
+.right-img{
+    width:80%;
+    height: 60rem;
+    object-fit: cover;
+    float: right;
+}
+
+.btn{
+    margin-top: 5rem;
+    height: 5.2rem;
+    width: 16rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fdfefe;
+    background-color: #8bb7a2;
+    border: none;
+  }
+
+.reverse-section{
+    flex-direction: row-reverse;
+}
+
+.right-align{
+    float: left;
+}
+
+
+/* CAREER SECTION ENDS */
+
+
+/* PEOPLE SECTION BEGINS */
+
+
+.creative-team{
+    margin: 10rem 20rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.creative-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem;
+}
+
+.creative-head h3{
+    width: 30%;
+    font-size: 5rem;
+}
+
+.creative-head p{
+    width: 35%;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color: #5E5F62;
+    margin-right: 22rem;
+}
+
+.peoples{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+
+.people-img{
+    width: 100%;
+}
+
+.card{
+    width: 26%;
+}
+
+.card h3{
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+
+.card p{
+    margin-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.see-more{
+    margin: 6rem auto;
+}
+/* PEOPLE SECTION ENDS */
+
+
+
+
+/* FOOTER SECTION BEGINS */
+.footer{
+    background-color: #10181D;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 20rem;
+
+}
+
+
+.footer-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-media-icons div {
+    padding: 1.2rem 1.2rem;
+    background-color: #282f34;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+.socials{
+    color: #c9cbcc;
+    font-size: 2rem;
+}
+
+.line {
+    border-bottom: 0.1rem solid #2e363b;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-list-heading{
+    margin-bottom: 2rem;
+}
+
+.footer-list-heading a{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-list-item{
+    margin-bottom: 1.4rem;
+}
+
+.footer-list-item a{
+    color: #7a7e81;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+
+
+/* FOOTER SECTION ENDS */
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:1700px) {
+
+    html{
+        font-size: 45%;
+      }
+    
+
+}
+
+
+@media screen and (max-width:1250px) {
+
+    html{
+        font-size: 36%;
+      }
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+    html{
+        font-size: 30%;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    .list{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+
+    html{
+        font-size: 22%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    html{
+        font-size: 26%;
+    }
+
+    .main-section{
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .main-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .right-section{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+    }
+
+
+    .main-heading, .main-para{
+        width: 100%;
+        
+    }
+
+    .main-search-box{
+        display: none;
+    }
+    .img-div{
+        padding: 0rem 10rem;
+    }
+
+    .target-video{
+
+        width: 100%;
+        
+    }
+
+    .career-header ,.target-header{
+        width: 70%;
+    }
+
+
+    .career-sub-section{
+        flex-direction: column;
+    }
+
+    .right-section, .left-section,.right-img,.sub-heading,.sub-para{
+        width: 100%;
+    }
+    .left-section{
+        text-align: center;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+
+    .creative-head{
+        flex-direction: column;
+        text-align: center;
+    }
+    .creative-head h3{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .creative-head p{
+        width: 100%;
+    }
+
+    .logo{
+        height: 3rem;
+    }
+    .menu{
+        justify-content: center;
+        gap: 5rem;
+    }
+    
+
+
+
+
+}

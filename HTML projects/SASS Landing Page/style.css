@@ -410,17 +410,23 @@ width: 100%;
 
   /* section-one */
 
+
+
   .container1 {
     padding-top: 0;
     height: 100vh;
   }
 
+  .section-one{
+    flex-direction: column;
+  }
+
   .section-one-content {
     text-align: center;
   }
-  .section-one-img {
+  /* .section-one-img {
     display: none;
-  }
+  } */
   .section-one-content h1 {
     font-size: 30px;
     margin-bottom: 3rem ;

@@ -75,6 +75,11 @@
   outline: 0px;
   font-family: var(--font-family-primary);
 }
+ .header {
+
+  max-width: 1445px;
+  margin: auto;
+ }
 
 /* button */
 .benz-btn-primary {
@@ -216,7 +221,8 @@ a {
   display: flex;
   align-items: center;
   gap: 30px;
-  color: var(--wb-grey-80);
+  color: var(--wb-grey-80); 
+ 
 }
 
 .nav-link > a:hover {
@@ -253,7 +259,10 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("/assets/hero.avif");
+  background-image: url("./assets/hero.avif");
+
+  max-width: 1445px; 
+  margin: auto
 }
 
 .hero-section > div {
@@ -262,6 +271,7 @@ a {
   flex-direction: column;
   justify-content: space-around;
   gap: 20px;
+  
 }
 
 .hero-buttons {
@@ -274,10 +284,12 @@ a {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
 }
 
 .hero-heading {
   font-size: var(--wb-text-4xl);
+ 
 }
 
 .discover-offer {

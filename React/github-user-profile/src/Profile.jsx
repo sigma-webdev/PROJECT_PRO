@@ -35,7 +35,7 @@ const Profile = () => {
   console.log(profile);
 
   return (
-    <div className=" mx-auto w-1/4 my-20">
+    <div className=" mx-auto w-96 my-20">
       {/* search */}
       <form
         onSubmit={handleSubmit}
@@ -67,10 +67,7 @@ const Profile = () => {
           />
           <div>
             <p>{profile?.login ? profile?.login : "Username"}</p>
-            <p>
-              {" "}
-              Join at {profile?.created_at ? profile?.created_at : "2000-08-1"}
-            </p>
+            <p> Join at {profile?.created_at ? profile?.created_at : "null"}</p>
           </div>
         </div>
 

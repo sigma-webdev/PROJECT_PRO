@@ -1,0 +1,66 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-background);
+  transition: background 300ms, color 300ms;
+  color: var(--color-text);
+}
+
+.theme-day {
+  --color-background: #f0f0f0;
+  --color-text: #333;
+  --color-primary: #89c2ff;
+}
+
+.theme-night {
+  --color-background: #333;
+  --color-text: #f0f0f0;
+  --color-primary: #007bff;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#theme-switches {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  padding: 2em;
+}
+
+#theme-switches button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border-radius: 20px;
+  background: var(--color-primary);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+#content {
+  padding: 5em;
+}
+
+#content h1 {
+  font-size: 3em;
+  margin: 0px;
+  padding: 0px;
+}
+
+#content h3 {
+  font-size: 1.3em;
+  margin: 0px;
+  padding: 0px;
+}
+
+#content p {
+  font-size: 1em;
+  line-height: 1.5;
+}

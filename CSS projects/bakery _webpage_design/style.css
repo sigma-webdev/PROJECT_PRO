@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFDF8;
+    font-family: Montserrat, sans-serif;
+    
+}
+
+/* 
+* header nav section
+*/
+nav {
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.brand {
+    display: inline-block;
+    
+}
+.brand img {
+  padding-left: 18px;
+}
+
+.brand p {
+    text-align: center;
+    font-size: small;
+}
+
+.menu {
+    display: inline;
+    float: right;
+    margin-top: 25px;
+
+}
+
+.menu p{
+    display: inline;
+    margin-left: 30px;
+}
+.menu p:first-child {
+    font-weight: bolder;
+}
+
+
+/*
+* main content section
+*/
+main {
+    text-align: center;
+    position: relative;
+}
+h2 {
+    font-family: Tangerine;
+    font-size: 72px;
+    width: 40%;
+    margin: 5px auto 0 auto;
+    text-align: center;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background: #313131;
+    color: #ffffff;
+    margin: 10px 10px;
+}
+
+main p {
+    opacity: 0.5;
+    font-size: small;
+}
+
+.main-image {
+    width: 1070px;
+    margin: auto;
+    position: relative;
+}
+
+.main-image img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-image img:nth-child(2) {
+    margin-top: 50px;
+}
+.main-image img:nth-child(3) {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* 
+* banner section 
+*/
+.banner {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
+
+/* 
+footer section
+*/
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}

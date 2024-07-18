@@ -9,12 +9,13 @@ header {
     padding: 20px 20px;
 }
 
-header p, h2 {
+header p, a {
     display: inline;
     padding:10px;
 }
-header h2 {
+header  a {
     font-variant:small-caps;
+    font-size: large;
 }
 header p:hover {
     color: blue;
@@ -47,17 +48,94 @@ section {
 .menu{
     padding: 10px;
 }
+/*  
 .menu img {
     border: 2px solid #eee;
     padding: 20px;
     margin: 10px 10px 0 0;
+} */
+
+.menu-item {
+    width: 100%;
+    overflow: hidden; /* Clearfix */
 }
 
-.menu-left {
+.left, .right {
+    width: 45%; /* Adjust width to your preference */
+    padding: 10px;
+    box-sizing: border-box; /* Include padding and border in width */
     float: left;
+    margin: 2.5%; /* Space between divs */
+  
 }
 
-.menu-right  {
-    float:right;
-    width: 100px;
+.left {
+
+    height: 530px;
+     overflow: hidden;
+    
+}
+
+.right {
+    height: 530px;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+
+.menu-item > h3 {
+    text-align: center;
+    text-decoration: underline ;
+    text-transform: uppercase;
+}
+
+.left img {
+    width: 100%;
+    box-shadow: 10px solid black;
+   
+}
+.right > h3 {
+    
+    padding: 15px 0px;
+}
+
+/* Styles for the container holding the table */
+.table-container {
+    width: 100%; 
+    margin: auto; 
+    padding-bottom: 10px;
+}
+  
+  /* Styles for the table itself */
+  table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 55px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+  
+  /* Styles for table header (th) */
+  th {
+    background-color: #f0f0f0; 
+    padding: 15px; 
+    text-align: left;
+    font-size: 1.2em; 
+}
+  
+  /* Styles for table data cells (td) */
+  td {
+    padding: 10px; 
+    border: 1px solid #ddd; 
+}
+  
+  /* Styles for even rows in the table body */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid #eee;
+    padding: 10px 0px;
 }

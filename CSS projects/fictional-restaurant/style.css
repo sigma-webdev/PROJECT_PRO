@@ -58,5 +58,6 @@ section {
 }
 
 .menu-right  {
-    float:right
+    float:right;
+    width: 100px;
 }

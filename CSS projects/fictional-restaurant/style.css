@@ -24,7 +24,6 @@ header p:hover {
 header h2:hover{
     color: blue;
     cursor: pointer;
-   
 }
 
 /* hero section */
@@ -37,8 +36,6 @@ main img{
     width: 1100px;
     height: 100%;
     margin: 10px auto;
-   
-
 }
 
 /* Menu section --- */
@@ -49,12 +46,9 @@ section {
 .menu{
     padding: 10px;
 }
-/*  
-.menu img {
-    border: 2px solid #eee;
-    padding: 20px;
-    margin: 10px 10px 0 0;
-} */
+#menu  h2 {
+ color:purple;
+}
 
 .menu-item {
     width: 100%;
@@ -66,12 +60,10 @@ section {
     padding: 10px;
     box-sizing: border-box; /* Include padding and border in width */
     float: left;
-    margin: 2.5%; /* Space between divs */
-  
+    margin: 2.5%; /* Space between div */
 }
 
 .left {
-
     height: 530px;
      overflow: hidden;
     

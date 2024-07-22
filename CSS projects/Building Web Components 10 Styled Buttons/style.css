@@ -15,34 +15,15 @@
   align-items: center;
 }
 
-
-
 .button-1 {
   background-color: #ea4c89;
   border-radius: 8px;
   border-style: none;
-  box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
   font-size: 14px;
   font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
   padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
 .button-1:hover,
@@ -56,21 +37,11 @@
   border-radius: 12px;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
-  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 2.5;
-  outline: transparent;
   padding: 0 1rem;
-  text-align: center;
-  text-decoration: none;
   transition: box-shadow 0.2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
 }
 
 .button-2:not([disabled]):focus {
@@ -89,27 +60,18 @@
   align-items: center;
   background-color: #fff;
   border: 2px solid #000;
-  box-sizing: border-box;
   color: #000;
   cursor: pointer;
   display: inline-flex;
-  fill: #000;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 48px;
   justify-content: center;
-  letter-spacing: -0.8px;
-  line-height: 24px;
   min-width: 140px;
-  outline: 0;
   padding: 0 17px;
-  text-align: center;
-  text-decoration: none;
   transition: all 0.3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+
 }
 
 .button-3:focus {
@@ -134,25 +96,17 @@
   background-position: 0 0;
   border: 1px solid #fee0e0;
   border-radius: 11px;
-  box-sizing: border-box;
   color: #d33a2c;
   cursor: pointer;
-  display: flex;
   font-size: 1rem;
   font-weight: 700;
   line-height: 33.4929px;
   list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
   padding: 2px 12px;
   text-align: left;
-  text-decoration: none;
-  text-shadow: none;
+
   text-underline-offset: 1px;
   transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  word-break: break-word;
 }
 
 .button-4:active,
@@ -361,10 +315,8 @@
 
 
 .button-10 {
-  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
-  text-decoration: none;
   text-transform: uppercase;
   color: #000;
   cursor: pointer;
@@ -372,9 +324,6 @@
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
 .button-10:active {

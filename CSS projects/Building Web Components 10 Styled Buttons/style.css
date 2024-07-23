@@ -324,6 +324,7 @@
   padding: 0.25em 0.5em;
   box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
   position: relative;
+  margin-right: 50px;
 }
 
 .button-10:active {
@@ -332,3 +333,40 @@
   left: 5px;
 }
 
+
+.btns button {
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 10px 15px;
+}
+.primary {
+  background-color: #0a66c2;
+  color:#e2e8f0;
+  border: none;
+  border-radius: 5px;
+}
+.primary {
+  background-color: #033f7a;
+}
+
+.success {
+  background-color: #008f40;
+  color:#e2e8f0;
+  border: none;
+  border-radius: 5px;
+}
+
+.success {
+  background-color: #00612c;
+}
+
+.danger {
+  background-color: #d33a2c;
+  color:#e2e8f0;
+  border: none;
+  border-radius: 5px;
+}
+
+.danger {
+  background-color: #741c14;
+}

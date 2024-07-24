@@ -34,7 +34,7 @@ body {
     cursor: pointer;
     border-radius: 10%; 
     margin-top: 8px; 
-    margin-bottom: 5px;
+    margin-bottom:30px;
     transition: all 0.2s ease-in-out; 
 }
 
@@ -117,4 +117,120 @@ body {
 .icon-medium {
     width: 20px; 
     height: 20px; 
+}
+
+/* mail options  */
+.mail-options {
+    background-color: #F6F8FC;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 230px;
+}
+
+.gmail-logo {
+    height: 3rem;
+    width: 8rem;
+    margin-bottom: 30px;
+}
+
+.compose-button {
+    width: 10rem;
+    background-color: #C2E7FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 3px;
+    border-radius: 1.2rem;
+    font-weight: 600;
+}
+
+.icon-medium {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.mail-options-list {
+width: 200px;
+}
+
+.mail-option {
+    height: 30px;
+    display: flex;
+    gap: 1.25rem;
+    border-radius: 1.5rem;
+    padding-left: 10px;
+    padding-top: -px;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    margin-left: -40px;
+}
+
+.mail-option-inbox {
+    background-color: #D3E3FD;
+    font-weight: 600;
+    
+}
+
+.mail-option:hover {
+    background-color: #e5e7eb; 
+}
+
+.icon-small {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.labels-section {
+    margin-top: 1rem;
+    width: 230px;
+}
+
+.labels-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.8rem; 
+}
+
+.labels-title {
+    margin-left: 0.5rem;
+}
+
+.label-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-weight: 600;
+    height: 35px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+.label-item:hover {
+    background-color: #e5e7eb; 
+    border-radius: 1.5rem;
+}
+
+.label-item-content {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.label-item-more {
+    margin-right: 0.25rem;
+    display: none;
+}
+
+.label-item:hover .label-item-more {
+    display: block;
+    background-color: #d1d5db; 
+    border-radius: 50px; 
 }

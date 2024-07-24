@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh; 
+    width: 100vw;  
+    margin: 0 auto; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80px 300px auto;
+    height: 100%;
+
+}
+
+/* for left button options menu  */
+.menu {
+    background-color: #eaf1fb;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for menu button */
+.menu-button .menu-button-icon {
+    padding: 16px;
+    cursor: pointer;
+    border-radius: 10%; 
+    margin-top: 8px; 
+    margin-bottom: 5px;
+    transition: all 0.2s ease-in-out; 
+}
+
+.menu-button .menu-button-icon:hover {
+    background-color: #d3e3fd; 
+}
+
+/* Styling for mail */
+.menu-mail .menu-mail-icon {
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #d3e3fd; 
+    border-radius: 50px; 
+}
+
+.menu-mail .menu-text {
+    font-size: 0.875rem; 
+    font-weight: 600; 
+    margin-top: -1px;
+}
+
+/* Styling for chat */
+.menu-chat .menu-chat-icon {
+    padding: 10px 16px; 
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
+
+    border-radius: 40px; 
+}
+
+.menu-chat .menu-chat-icon:hover {
+    background-color: #d3e3fd; 
+    border-radius: 40px; 
+}
+
+.menu-chat .menu-text {
+    font-size: 0.875rem; 
+    font-weight: 400; 
+    margin-top: -1px;
+}
+
+/* Styling for spaces */
+.menu-spaces .menu-spaces-icon {
+    padding: 10px 16px; 
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
+    border-radius: 50px; 
+}
+
+.menu-spaces .menu-spaces-icon:hover {
+    background-color: #d3e3fd; 
+  
+}
+
+.menu-spaces .menu-text {
+    font-size: 0.875rem; 
+    margin-top: -1px;
+}
+
+/* Styling for meet */
+.menu-meet .menu-meet-icon {
+    padding: 10px 16px; 
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; 
+}
+.menu-meet .menu-meet-icon:hover {
+    background-color: #d3e3fd; 
+    border-radius: 9999px; 
+}
+.menu-meet .menu-text {
+    font-size: 0.875rem;
+    margin-top: -1px;
+}
+
+.icon-large {
+    width: 24px; 
+    height: 24px; 
+}
+
+.icon-medium {
+    width: 20px; 
+    height: 20px; 
+}

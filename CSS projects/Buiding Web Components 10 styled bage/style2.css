@@ -1,0 +1,19 @@
+.basic {
+    position: relative;
+    margin-top: 200px;
+    width: 100px;
+}
+
+.basic  span{
+    background-color: #ff1e00;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+    position: absolute;
+    font-size: small;
+    top: -10px;
+}
+
+.basic:hover span  {
+    box-shadow: 4px 4px 4px blue;
+}

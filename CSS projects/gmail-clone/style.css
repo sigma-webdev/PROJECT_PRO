@@ -8,7 +8,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 80px 300px auto;
+    grid-template-columns: 80px 280px auto;
     height: 100%;
 
 }
@@ -125,7 +125,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    width: 230px;
+    width: 100%;
+   
 }
 
 .gmail-logo {
@@ -234,3 +235,131 @@ width: 200px;
     background-color: #d1d5db; 
     border-radius: 50px; 
 }
+
+
+
+/* complete mail section */
+.mail-section {
+    background-color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-header {
+    background-color: #F6F8FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 13vh;
+    padding-left: 10px;
+  }
+  
+  @media (min-width: 1536px) {
+    .navigation-header {
+      height: 8vh;
+    }
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 450px;
+    background-color: #EAF1FB;
+    height: 9vh;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    border-radius: 50px;
+  }
+  
+  @media (min-width: 1536px) {
+    .search-bar {
+      width: 700px;
+      height: 6vh;
+    }
+  }
+  
+  .search-icon,
+  .menu-icon,
+  .question-icon,
+  .settings-icon,
+  .squares-icon {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .search-icon:hover,
+  .menu-icon:hover,
+  .question-icon:hover,
+  .settings-icon:hover,
+  .squares-icon:hover {
+    background-color: #E0E0E0;
+  }
+  
+  .search-input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 1.125rem;
+  }
+  .search-input:focus{
+    outline: none;
+  }
+  
+  .menuTwo {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  
+  .active-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #EAF1FB;
+    height: 9vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+  }
+  
+  @media (min-width: 1536px) {
+    .active-button {
+      height: 6vh;
+    }
+  }
+  
+  .green-dot {
+    height: 14px;
+    width: 15px;
+    background-color: #2F855A;
+    border-radius: 50px;
+  }
+  
+  .account-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #7C3AED;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+  .active-button svg {
+    width: 20px;
+  }

@@ -243,7 +243,6 @@ width: 200px;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
 }
 
 .navigation-header {
@@ -369,9 +368,8 @@ width: 200px;
 /* mail content  */
 .main-content {
     display: grid; 
-    grid-template-columns: auto 60px; 
+    grid-template-columns: auto 50px; 
     height: 87vh; 
-    border: 1px solid red;
   }
   
   @media (min-width: 1536px) { 
@@ -394,7 +392,6 @@ width: 200px;
     align-items: center;
     justify-content: space-between;
     height: 3.5rem;
-    border: 1px solid green;
 
 }
 
@@ -413,9 +410,7 @@ width: 200px;
 
 .icon-small {
     width: 0.75rem;
-    /* Equivalent to w-3 in Tailwind */
     height: 0.75rem;
-    /* Equivalent to h-3 in Tailwind */
 }
 
 .custom-refresh,
@@ -496,53 +491,161 @@ width: 200px;
 }
 
 /* mail options*/
-.email-options-container{
-    height: 3.5rem; 
-    display: flex; 
-    align-items: center; 
+.email-options-container {
+    position: relative;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
-  }
+}
 
-  .custom-item {
-    padding: 0 1.25rem; 
-    cursor: pointer; 
+.custom-item {
+    padding: 0 1.25rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 100%;
+}
+
+.custom-item:hover {
+    background-color: #f3f4f6;
+}
+
+
+.item-text {
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.blue-line {
+    position: absolute;
+    bottom: 0;
+    left: 2.5rem;
+    width: 8rem;
+    height: 0.25rem;
+    background-color: #0B57D0;
+    border-radius: 9999px;
+}
+
+.icon-large {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.primary-item {
+    color: #0B57D0;
+}
+
+.promotions-item,
+.updates-item {
+    color: #5B5B5B;
+}
+
+.display-mail-list {
+    background-color: #F2F6FC;
+    border-color: #E5E7EB;
+    overflow-y: scroll;
+    height: 62vh;
+    margin-top: -15px;
+}
+
+.mail-item {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    cursor: pointer;
+    position: relative;
+    margin-left: -40px;
+    border: 1px solid #eee;
+}
+
+.mail-item:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 6px -1px rgba(156, 163, 175, 0.4), 0 2px 4px -1px rgba(156, 163, 175, 0.4);
+}
+
+
+.mail-item-info {
     display: flex; 
     align-items: center; 
-    gap: 1rem; 
-    height: 100%; 
-  }
-  /*
-  .custom-item:hover {
-    background-color: #f3f4f6; 
+    gap: 0.75rem;
+    color: #9ca3af; 
   }
   
-  .item-text {
+  .custom-svg-wrapper {
+    color: #9ca3af; 
+  }
+  
+  .custom-svg-wrapper:hover {
+    color: black; 
+  }
+  
+  .custom-svg {
+    width: 1rem; 
+    height: 1rem; 
+  }
+  
+  .custom-img {
+    width: 1.5rem;
+  }
+  
+  .custom-heading {
+    color: black; 
+  }
+  
+
+/* mail meta info  */
+.mail-item-meta {
+    display: flex; 
+    align-items: center; 
+    gap: 1.25rem; 
+    position: relative; 
+    width: 100%;
+  }
+  
+  .custom-mail-message {
+    width: 85%; 
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+  }
+  
+  .custom-mail-time {
+    position: absolute; 
+    right: 0.25rem; 
+    color: #9ca3af; 
     font-weight: 600; 
     font-size: 0.875rem; 
   }
-  
-  .blue-line {
-    position: absolute; 
-    bottom: 0;
-    left: 0.5rem; 
-    width: 14rem; 
-    height: 0.25rem; 
-    background-color: #0B57D0; 
-    border-radius: 9999px; 
-  }
-  
-  .icon-large {
-    width: 1.25rem;
-    height: 1.25rem;
-  }
-  
-  .primary-item {
-    color: #0B57D0;
-  }
-  
-  .promotions-item,
-  .updates-item {
-    color: #5B5B5B; 
-  }
-   */
+
+/* hover button  */
+.custom-action-buttons {
+    display: none;
+    position: absolute;
+    right: 0.3rem;
+    z-index: 10;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.mail-item:hover .custom-action-buttons {
+    display: flex;
+    background-color: #f2f6fc;
+}
+
+.custom-button {
+    padding: 0.5rem;
+    border-radius: 9999px;
+}
+
+.custom-button:hover {
+    background-color: #e5e7eb;
+}
+
+.custom-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}

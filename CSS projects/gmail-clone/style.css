@@ -549,6 +549,12 @@ width: 200px;
     height: 62vh;
     margin-top: -15px;
 }
+/* Media query for larger screens */
+@media (min-width: 1300px) {
+    .display-mail-list {
+        height: 75vh; /* Adjust the height as needed */
+    }
+}
 
 .mail-item {
     padding-left: 10px;
@@ -638,7 +644,7 @@ width: 200px;
 
 .custom-button {
     padding: 0.5rem;
-    border-radius: 9999px;
+    border-radius: 50px;
 }
 
 .custom-button:hover {
@@ -648,4 +654,80 @@ width: 200px;
 .custom-icon {
     width: 1.2rem;
     height: 1.2rem;
+}
+
+/* menu right */
+/* Container for the right-side menu */
+.right-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 1.25rem; 
+    margin-left: -60px;
+    
+}
+
+
+/* Container for menu items */
+.menu-items {
+    width: 100%;
+}
+
+/* Styling for the list of app icons */
+.app-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem; 
+    list-style-type: none;
+}
+
+.icon-item {
+    
+    border-radius: 9999px; 
+    padding: 0.5rem; 
+    cursor: pointer;
+}
+.icon-item:hover{
+    background-color: #f0f0f0; 
+}
+
+.icon-img {
+    width: 1.25rem; 
+}
+
+/* Divider styling */
+.divider {
+    height: 1px;
+    background-color: #e5e7eb; 
+    width: 1.25rem; 
+    margin: 2.5rem auto;
+    margin-left: 45px;
+}
+
+/* Styling for additional icons */
+.additional-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem; 
+}
+
+/* Styling for the caret symbol */
+.caret-symbol {
+   
+    border-radius: 30px; 
+    padding: 0.5rem; 
+    cursor: pointer;
+    margin-left: 35px;
+}
+.caret-symbol:hover{
+    background-color: #f0f0f0; 
+}
+.caret-icon {
+    width: 1rem; 
+    height: 1rem; 
 }
